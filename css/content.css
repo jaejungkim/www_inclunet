@@ -56,7 +56,7 @@
 /*  COMPANY ::CEO 인사말  */
 .ceo_area{padding:20px 0;}
 .ceo_area .ceo_title {position:relative;font-size:34px;letter-spacing:-2px;font-weight:600;line-height:48px;color:#000;}
-.ceo_area .ceo_title span{display:block;font-weight:300;line-height:48px;font-weight:300;margin-bottom:10px}
+.ceo_area .ceo_title span{display:block;font-weight:300;line-height:48px;font-weight:300;}
 .ceo_area .ceo_img{display:inline-block;width:420px;vertical-align:top;}
 .ceo_area .ceo_txt{display:inline-block;width:calc(100% - 440px);padding-left:0;vertical-align:top;}
 .ceo_area .ceo_txt p{margin-top:30px;font-size:16px;line-height:28px;}
@@ -107,7 +107,7 @@
 .recruit_inquiry_con{display:table;width:100%;background-color:#f4f4f4;}
 .recruit_inquiry_con > dt, .recruit_inquiry_con > dd{display:table-cell;vertical-align:middle;}
 .recruit_inquiry_con > dt{width:65px;}
-.recruit_inquiry_con > dt strong{background-color:#fff;display:block;border:5px solid #005db5;font-size:13px;line-height:35px;color:#000;font-weight:600;text-align:center;border-radius:100%;-moz-border-radius:100%;-webkit-border-radius:100%;-o-border-radius:100%;padding:10px 0;}
+.recruit_inquiry_con > dt strong{font-family:'Poppins', sans-serif; background-color:#fff;display:block;border:5px solid #005db5;font-size:13px;line-height:35px;color:#000;font-weight:600;text-align:center;border-radius:100%;-moz-border-radius:100%;-webkit-border-radius:100%;-o-border-radius:100%;padding:10px 0;}
 .recruit_inquiry_con > dd{padding:0 30px;}
 .recruit_inquiry_con > dd p{font-size:18px;line-height:36px;color:#333;font-family:'Noto Sans KR', "나눔고딕", NanumGothic, "Nanum Gothic","돋움", Dotum, Arial, sans-serif;}
 
@@ -374,7 +374,7 @@
 	
 	/*  SOLUTION ::기능  */
 	.solution_skill>li b{font-size:16px;}
-	.solution_skill>li{padding:70px 0 20px 0;background-size:60px auto;background-position:left 0 top 20px;}
+	.solution_skill>li{padding:120px 0 20px 0;background-position:left 0 top 20px;}
 
 	/*  SOLUTION ::장점  */
 	.solution_merit{border-top:1px solid #333; max-width:500px; margin:0 auto;}
@@ -481,7 +481,7 @@
 
 	.contact_box > dt{display:none}
 	.contact_cont{padding-left:20px;}
-	
+	.partner_area img{width:90%; margin:0 auto;}	
 	
 }
 /** 380px 끝 **/

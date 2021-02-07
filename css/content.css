@@ -7,7 +7,7 @@
 .page_title{display:block; position:relative; padding:20px 0; font-size:40px; font-weight:700; color:#222; text-align:center; margin:80px 0 40px; letter-spacing:-1px;}
 .page_title:before{position:absolute; top:0; left:50%; transform:translateX(-50%); width:50px; height:2px; background-color:#555; content:"";}
 .page_title img{height:45px;vertical-align:middle; margin-bottom:5px;}
-.titleH4{position:relative;color:#101010;font-weight:500; font-size:26px; padding-bottom:20px;}
+.titleH4{position:relative;color:#101010;font-weight:500; font-size:26px; padding-bottom:10px}
 .titleH4 span{font-size:18px;color:#777;}
 
 /*  PAGE :기본  */
@@ -15,14 +15,14 @@
 .page_area > div{max-width:1400px;margin:0 auto;}
 
 /*  COMPANY ::회사소개  */
-.company_area{padding:80px 0 60px;}
+.company_area{padding:80px 0 40px;}
 .company_title{display:table;width:100%;padding-bottom:50px;border-bottom:1px dashed #aeaeae;}
 .company_title > dt, .company_title > dd{display:table-cell;vertical-align:middle;}
 .company_title > dt{padding-right:60px;}
 .company_title > dt strong{display:block;font-size:100px;line-height:50px;color:#cbcaca;font-weight:700;}
 .company_title > dt h3{font-size:35px;color:#000;font-weight:400;letter-spacing:-1.5px;margin-bottom:20px;}
 .company_title > dt h3 span{color:#172d85;font-weight:500;}
-.company_title > dt p{font-size:22px;line-height:36px;color:#222;font-weight:300;letter-spacing:-2px;}
+.company_title > dt p{font-size:22px;line-height:36px;color:#222;}
 .company_title > dt p b{font-weight:500;}
 .company_title > dd{width:35.33%;}
 .company_title > dd img{height:320px;}
@@ -40,23 +40,22 @@
 .business_box li:nth-child(2) strong{background:#2d66be;color:#fff;}
 .business_box li:nth-child(3) strong{background:#08347f;color:#fff;}
 
-.company_info{padding:0;}
 .company_info ul{display:flex;flex-wrap:wrap;align-items:center;margin:0 auto;border-top:2px solid #222;}
 .company_info ul li{box-sizing:border-box;position:relative;margin-top:7px;width:50%;margin:0;line-height:58px;height:58px;padding:0;background:#fff;border-bottom:1px solid #dddddd;text-align:left;}
 .company_info ul li strong{display:inline-block;width:160px;padding-left:30px;font-size:15px;margin-right:15px;background:#f9f9f9;height:57px;font-weight:500;}
 
-.certificate_info{overflow:hidden;position:relative;padding:60px 0 0;}
+.certificate_info{overflow:hidden;position:relative;}
 .certificate_info:after{content:"";display:block;clear:both;visibility:hidden;}
 .certificate_info .box_col:after{content:"";clear:both;display:block;visibility:hidden}
-.certificate_info .box_col .col{display:inline-block;float:left;background:#fff;margin-bottom:20px;padding:0;border:1px solid #ddd;border-top:1px solid #222;width:11.5%;margin-left:1%;text-align:center;}
-.certificate_info .box_col strong{display:block;font-size:14px;background:#f9f9f9;border-bottom:1px dashed #ddd;padding:10px 0;}
+.certificate_info .box_col .col{display:inline-block;float:left;background:#fff;margin-bottom:20px;padding:0;border:1px solid #ddd;border-top:1px solid #222;width:10.1%;margin-left:1%;text-align:center;}
+.certificate_info .box_col strong{display:block;font-size:14px;background:#f9f9f9;border-bottom:1px dashed #ddd;padding:10px 0; overflow:hidden; }
 .certificate_info .box_col{margin-left:-1%;}
 .certificate_info .box_col img{width:100%;}
 
 /*  COMPANY ::CEO 인사말  */
 .ceo_area{padding:20px 0;}
-.ceo_area .ceo_title {position:relative;font-size:34px;letter-spacing:-2px;font-weight:600;line-height:48px;color:#000;}
-.ceo_area .ceo_title span{display:block;font-weight:300;line-height:48px;font-weight:300;}
+.ceo_area .ceo_title {position:relative;font-size:34px;letter-spacing:-1px;font-weight:600;line-height:48px;color:#000;}
+.ceo_area .ceo_title strong{display:block;font-weight:300;line-height:48px;}
 .ceo_area .ceo_img{display:inline-block;width:420px;vertical-align:top;}
 .ceo_area .ceo_txt{display:inline-block;width:calc(100% - 440px);padding-left:0;vertical-align:top;}
 .ceo_area .ceo_txt p{margin-top:30px;font-size:16px;line-height:28px;}
@@ -85,11 +84,13 @@
 .history-br{display:block;}
 
 /*  COMPANY ::인재채용  */
-.recruit_title{position:relative;display:block; margin-bottom:60px;}
+.recruit_title{position:relative;display:block; }
 .recruit_title h3{display:block;font-size:30px;letter-spacing:-1px;text-align:left;color:#000;font-weight:600; margin-bottom:10px;}
 .recruit_title h3 span{font-weight:400;}
 .recruit_title p{font-weight:400; font-size:18px}
-.recruit_step{text-align:center;padding:0;margin-bottom:40px;}
+.recruit_title p u{color:#172d85;}
+.recruit_step{text-align:center;padding:0;}
+.recruit_step ul{padding:0;}
 .recruit_step > li{display:inline-block;vertical-align:middle;}
 .recruit_step > li.recruit_step_line{margin:0 4px;}
 .recruit_con{display:table;width:200px;height:200px;}
@@ -215,9 +216,10 @@
 .partner_area{transition-timing-function:ease-in;-webkit-animation:ani_effect 1s;animation:ani_effect 1s;animation-fill-mode:forwards;animation-delay:0.5s;}
 
 /*  CONTACT ::고객문의  */
-.contact_title{font-size:20px;line-height:40px;color:#5c5c5c;font-weight:300;text-align:center;padding:60px 0;border-bottom:1px solid #e5e5e5; border-top:1px solid #e5e5e5;}
+.contact_title{font-size:20px;color:#5c5c5c;font-weight:300;text-align:center;padding:60px 0;border-bottom:1px solid #e5e5e5; border-top:1px solid #e5e5e5; line-height:40px;}
 .contact_title > strong{display:block;font-size:26px;color:#333;font-weight:500;}
 .contact_title > strong span{color:#273baa;}
+.contact_title br{display:none;}
 .contact_list_area{padding:60px 0 0;margin:0 auto;}
 .contact_list_area > li{float:left;width:48.75%;margin:0 0.625%;margin-bottom:30px;}
 .contact_list{border:1px solid #ddd;}
@@ -233,7 +235,6 @@
 .contact_cont > p em, .contact_cont > p span{display:table-cell;vertical-align:top;line-height:38px;}
 .contact_cont > p em{width:33px;color:#172d84;}
 .contact_cont > p em i{display:inline-block;width:38px;height:38px;font-size:0;text-indent:-9999px;border-radius:50%;background-color:#fff;background-repeat:no-repeat;background-position:50% 50%;margin-right:15px;}
-.hidden-br{display:none !important;}
 
 /*  CONTACT ::오시는길  */
 .map_area{position:relative;padding-top:calc(500 / 1400 * 100%);}
@@ -263,12 +264,10 @@
 
 	/*  COMPANY ::회사소개  */
 	.company_title > dd img{height:200px;}	
-	.company_info{padding:20px 0 0;}
 	.company_info ul li{width:100%;}
 	.business_box li{padding:100px 20px 20px;}
 	.business_box li h3{font-size:15px;}
-	.certificate_info{padding:30px 0 0;}
-	.certificate_info .box_col .col{width:24%;}
+	.certificate_info .box_col .col{width:19%;}
 	.certificate_info .box_col strong{font-size:13px;padding:10px;}
 
 	.history_longtxt{padding-left:0px;}
@@ -296,7 +295,7 @@
 	/* 타이틀 */
 	.page_title{display:block;position:relative;padding:10px 0;font-size:30px;margin:60px 0 20px;}	
 	.page_title img{height:34px;}
-	.titleH4{line-height:20px;font-size:24px;margin:30px 0 10px;}
+	.titleH4{font-size:24px;}
 	.titleH4 span{display:none;}
 		
 	/*  COMPANY ::회사소개  */
@@ -317,19 +316,18 @@
 	.business_box li h3 br{display:none;}
 	
 	.company_info ul li strong{width:120px;padding-left:20px;}
-	.certificate_info .box_col .col{width:46%;margin-left:4%;}
+	.certificate_info .box_col .col{width:31.33%;margin-left:2%;}
 	.certificate_info .box_col strong{font-size:13px;}
-	.certificate_info .box_col{margin-left:-4%;}
+	.certificate_info .box_col{margin-left:-2%;}
 
 	/*  COMPANY ::CEO 인사말  */
 	.ceo_area {padding:0;}
 	.ceo_area .ceo_img{width:100%;}
 	.ceo_area .ceo_img img{width:180px;}
     .ceo_area .ceo_txt{width:100%;padding-left:0px;margin-top:20px;}
-    .ceo_area .ceo_title{width:auto !important;font-size:23px;line-height:30px;}
-    .ceo_area .ceo_title>span{font-size:20px;}
+    .ceo_area .ceo_title{font-size:23px;line-height:28px;}
     .ceo_area .ceo_txt p{margin-top:20px;font-size:15px;line-height:25px;}
-    .ceo_area .ceo_title:before{right:auto;left:191px;top:15px;width:35px;height:1px;}
+	.ceo_cont img{height:40px}
 
 	/*  COMPANY ::연혁  */
 	.history_area{margin-bottom:-50px;padding-bottom:30px;}
@@ -346,10 +344,9 @@
 	.history_area  li:nth-child(even) .historytxt{padding-left:0;padding-top:24px;}
 
 	/*  COMPANY ::인재채용  */
-	.recruit_title{margin-bottom:10px;}
-	.recruit_title h3{font-size:22px;margin-bottom:10px;line-height:34px;text-align:left;}
-	.recruit_title p{font-size:14px; padding-top:10px}
-	.recruit_step > li{margin-bottom:10px;}
+	.recruit_title h3{font-size:22px;line-height:34px;text-align:left; margin:0}
+	.recruit_title p{font-size:14px; padding-top:10px;}
+	.recruit_step > li{margin-bottom:20px;}
 	.recruit_step > li.recruit_step_line img{max-width:35px;}
 	.recruit_con{width:145px;height:145px;}
 	.recruit_con p{font-size:13px;}
@@ -405,7 +402,7 @@
 	.table.bd_tbl_ul tbody,.table.bd_tbl_ul tr{width:100%;}
 	.table.bd_tbl_ul tr{position:relative;padding:0;border-top:1px solid #333333;}
 	.table.bd_tbl_ul tr:first-child,.table.bd_tbl_ul tr td:first-child{border-top-width:0;}	
-	.table.bd_tbl_ul td{clear:both;position:relative;padding:8px 20px 8px 70px;text-align:left;border-width:0;border-top:1px dotted #b8b8b8;}	
+	.table.bd_tbl_ul td{clear:both;position:relative;padding:8px 20px 8px 70px;text-align:left;border-width:0;border-top:1px dotted #b8b8b8; font-size:13px}	
 	.table.bd_tbl_ul td:before{content:'';display:block;position:absolute;left:12px;width:40px;color:#313131;text-align:center;}
 	.table.bd_tbl_ul tbody > tr > td{min-height:40px;height:auto;}
 	.table.bd_tbl_ul tbody > tr > td a{vertical-align:top;}
@@ -436,18 +433,19 @@
 	.partner_area .box_col li a,.partner_area .box_col.col5 li a,.partner_area .box_col.col4 li a,.partner_area .box_col.col3 li a{width:48%;margin-bottom:20px;padding:10px 0;}
 
 	/*  CONTACT ::고객문의  */
-	.contact_title{font-size:14px;line-height:25px;padding:30px 0;}
+	.contact_title{font-size:14px;padding:30px 0; line-height:30px;}
 	.contact_title > strong{font-size:20px;}
+	.contact_title br{display:block;}
 	.contact_list_area{padding:30px 0;margin:0px;}
 	.contact_list_area > li{float:none;width:auto;margin:0px auto;margin-bottom:15px;}
 	
 	.contact_box{display:table;width:100%;}
-	.contact_box > dt img{max-width:84px;}
+	.contact_box > dt img{max-width:70px;}
 	.contact_box > dd{padding:20px 0 10px;}
-	.contact_cont{padding-left:30px;}
+	.contact_cont{padding-left:20px;}
 	.contact_cont > strong{font-size:11px;line-height:18px;padding:0 5px;margin-bottom:5px;}
 	.contact_cont > h3{font-size:20px;margin-bottom:15px;}
-	.contact_cont > p span{line-height:24px;padding-top:5px;}
+	.contact_cont > p span{line-height:24px;padding-top:5px; font-size:13px}
 	.contact_box > dt, .contact_box > dd{height:auto;}
 	
 	/*  CONTACT ::오시는길  */
@@ -462,15 +460,17 @@
 /** 480px 시작 **/
 @media all and (max-width:480px) {
 	
-	.recruit_step > li{float:left;width:50%;}
-	.recruit_step > li.recruit_step_line{display:none;}
+	.certificate_info .box_col .col{width:46%;margin-left:4%;}
+	.certificate_info .box_col{margin-left:-4%;}
 
-	.company_info{padding:0;}
+	.recruit_step > li{float:left;width:50%;}
+	.recruit_step > li.recruit_step_line{display:none;}	
+
 	.company_info ul li{line-height:40px;height:auto;padding:0;background:#fff;}
 	.company_info ul li strong{display:block;width:100%;padding-left:10px;height:auto}
 	.company_info ul li span{padding:0 10px;line-height:30px;font-size:13px}
 	
-	.hidden-br{display:block !important;}
+
 
 }
 /** 480px 끝 **/

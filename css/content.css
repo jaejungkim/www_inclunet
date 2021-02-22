@@ -65,8 +65,8 @@
 /*  COMPANY ::연혁  */
 .history_area{position:relative;position:relative;}
 .history_area ul{width:100%;height:auto;position:relative;}
-.history_area .historytxt{margin-top:5px;font-size:16px;color:#666;}
-.history_area .historytxt b{padding-left:10px;font-size:16px;color:#1a1a1a;font-weight:500;}
+.history_area .historytxt{margin-top:5px;font-size:16px;color:#666; }
+.history_area .historytxt b{padding-left:10px;font-size:16px;color:#1a1a1a;font-weight:500; font-family:'Poppins', sans-serif; font-weight:600; }
 .history_area li::after{content:"";display:block;width:1px;height:100%;position:absolute;right:0;top:15px;background-color:#c6cace;}
 .history_area li:nth-child(odd)::after{left:0;right:auto;}
 .history_area li:nth-child(odd) .historytxt b{padding-left:0;padding-right:10px;}
@@ -77,7 +77,7 @@
 .history_area li .Year::after{content:"";width:10px;height:10px;background-color:#fff;border:4px solid #005db5;border-radius:50%;position:absolute;left:-9px;top:6px; z-index:1;}
 .history_area li:nth-child(even)::before{right:0;left:auto;}
 .history_area li:nth-child(even) .Year::after{right:-9px;left:auto;}
-.history_area li .Year{font-size:40px;font-weight:500;line-height:30px;color:#000;margin-bottom:30px;letter-spacing:-1px;}
+.history_area li .Year{font-size:40px;font-weight:600;font-family:'Poppins', sans-serif; line-height:30px;color:#000;margin-bottom:30px;letter-spacing:-1px;}
 .history_area li:nth-child(even) .subTit6{text-align:right;}
 .history_area li .subTit6{text-align:left;font-weight:normal;}
 .history_longtxt{padding-left:50px;}

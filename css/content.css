@@ -111,6 +111,9 @@
 .recruit_inquiry_con > dt strong{font-family:'Poppins', sans-serif; background-color:#fff;display:block;border:5px solid #005db5;font-size:13px;line-height:35px;color:#000;font-weight:600;text-align:center;border-radius:100%;-moz-border-radius:100%;-webkit-border-radius:100%;-o-border-radius:100%;padding:10px 0;}
 .recruit_inquiry_con > dd{padding:0 30px;}
 .recruit_inquiry_con > dd p{font-size:18px;line-height:36px;color:#333;font-family:'Noto Sans KR', "나눔고딕", NanumGothic, "Nanum Gothic","돋움", Dotum, Arial, sans-serif;}
+.recruit_inquiry_con > dd p a{color:#333;}
+.recruit_inquiry_con > dd p a:hover{text-decoration:underline; color:#01479d}
+
 
 /*  SOLUTION ::상단내용  */
 .solution_area{margin:35px 0 20px;}
@@ -235,6 +238,7 @@
 .contact_cont > p em, .contact_cont > p span{display:table-cell;vertical-align:top;line-height:38px;}
 .contact_cont > p em{width:33px;color:#172d84;}
 .contact_cont > p em i{display:inline-block;width:38px;height:38px;font-size:0;text-indent:-9999px;border-radius:50%;background-color:#fff;background-repeat:no-repeat;background-position:50% 50%;margin-right:15px;}
+.contact_cont > p a:hover{text-decoration:underline; color:#01479d}
 
 /*  CONTACT ::오시는길  */
 .map_area{position:relative;padding-top:calc(500 / 1400 * 100%);}

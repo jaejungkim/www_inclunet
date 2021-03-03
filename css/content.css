@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /* SUB CONTENTS */
-.content{margin:80px auto;}
+.content{margin:80px auto; word-break: keep-all;}
 
 /* 타이틀 */
 .page_title{display:block; position:relative; padding:20px 0; font-size:40px; font-weight:700; color:#222; text-align:center; margin:80px 0 40px; letter-spacing:-1px;}

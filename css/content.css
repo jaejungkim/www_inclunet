@@ -114,7 +114,6 @@
 .recruit_inquiry_con > dd p a{color:#333;}
 .recruit_inquiry_con > dd p a:hover{text-decoration:underline; color:#01479d}
 
-
 /*  SOLUTION ::상단내용  */
 .solution_area{margin:35px 0 20px;}
 .solution_top{overflow:hidden;min-height:400px;padding:50px 0 30px;}
@@ -444,6 +443,7 @@
 	.contact_list_area > li{float:none;width:auto;margin:0px auto;margin-bottom:15px;}
 	
 	.contact_box{display:table;width:100%;}
+	.contact_box > dt{width:30%;}
 	.contact_box > dt img{max-width:70px;}
 	.contact_box > dd{padding:20px 0 10px;}
 	.contact_cont{padding-left:20px;}

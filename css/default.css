@@ -44,6 +44,7 @@ button{margin:0;padding:0;border:none;background:none;cursor:pointer;display:inl
 .clearfix{*zoom:1;}
 .clearfix:after{clear:both;display:block;content:"";}
 .img-responsive{display:block;width:100%;max-width:100%;height:auto;margin:0 auto;}
+.img_responsive{display:block;width:100%;max-width:1000px;height:auto;margin:0 auto;}
 
 /* SKIPNAV */
 .skip_navi a{position:absolute;top:-9999em;z-index:9999;width:100%;font-weight:bold;background:#0e4194;text-align:center;}

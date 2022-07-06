@@ -132,12 +132,12 @@
 /*  SOLUTION ::주요기능1  */
 .solution_skill{border-top:2px solid #222;}
 .solution_skill>li{position:relative;padding:10px 30px 30px 215px;box-sizing:border-box;min-height:160px;}
-.solution_skill>li{background-image:url(../images/content/data_img01.png);background-repeat:no-repeat;background-position:left 60px top 30px;}
+.solution_skill>li{background-image:url(../images/content/data_img11.png);background-repeat:no-repeat;background-position:left 60px top 30px;}
 .solution_skill>li:last-child{border-bottom:1px solid #dbdee1;}
-.solution_skill>li.list2{background-image:url(../images/content/data_img02.png);}
-.solution_skill>li.list3{background-image:url(../images/content/data_img03.png);}
-.solution_skill>li.list4{background-image:url(../images/content/data_img04.png);}
-.solution_skill>li.list5{background-image:url(../images/content/data_img05.png);}
+.solution_skill>li.list2{background-image:url(../images/content/data_img12.png);}
+.solution_skill>li.list3{background-image:url(../images/content/data_img13.png);}
+.solution_skill>li.list4{background-image:url(../images/content/data_img14.png);}
+.solution_skill>li.list5{background-image:url(../images/content/data_img15.png);}
 .solution_skill>li.list6{background-image:url(../images/content/data_img06.png);}
 .solution_skill>li.list7{background-image:url(../images/content/data_img07.png);}
 .solution_skill>li b{display:block;margin-bottom:15px;margin-top:20px;font-weight:500;font-size:18px;color:#1a1a1a;}

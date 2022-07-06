@@ -81,6 +81,7 @@
 .history_area li:nth-child(even) .subTit6{text-align:right;}
 .history_area li .subTit6{text-align:left;font-weight:normal;}
 .history_longtxt{padding-left:50px;}
+.history_longtxt2{padding-right:50px;}
 .history-br{display:block;}
 
 /*  COMPANY ::인재채용  */
@@ -345,6 +346,7 @@
 	.history_area li:nth-child(even) .historytxt  b{position:absolute;left:0;top:0;padding-left:0;}
 	.history_area .historytxt b{display:block !important;}
 	.history_area  li:nth-child(even) .historytxt{padding-left:0;padding-top:24px;}
+	.history_longtxt2{padding-right:0;}
 
 	/*  COMPANY ::인재채용  */
 	.recruit_title h3{font-size:22px;line-height:34px;text-align:left; margin:0}

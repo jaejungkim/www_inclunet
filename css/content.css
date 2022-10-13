@@ -130,6 +130,10 @@
 .solution_txt ul li{position:relative;margin-bottom:20px;line-height:25px;padding-left:35px;font-size:16px;}
 .solution_txt ul li:after{content:'';background:url(../images/content/li_check.png);width:25px;height:25px;position:absolute;left:0;top:0;}
 
+.leaflet {position:relative;  padding:5px 0;}
+.leaflet_Down { display: inline-block; border: 1px solid #0462b7; height: 40px; padding: 0 55px 0 15px; color: #0462b7; font-weight: 500; line-height: 38px; text-align: left; background: url('../images/content/filedown_b.png') no-repeat right; font-size: 16px; }
+.leaflet_View { display: inline-block; border: 1px solid #dd0011; height: 40px; padding: 0 55px 0 15px; color: #dd0011; font-weight: 500; line-height: 38px; text-align: left; background: url('../images/content/filedown_r.png') no-repeat right; font-size: 16px; }
+
 /*  SOLUTION ::주요기능1  */
 .solution_skill{border-top:2px solid #222;}
 .solution_skill>li{position:relative;padding:10px 30px 30px 215px;box-sizing:border-box;min-height:160px;}

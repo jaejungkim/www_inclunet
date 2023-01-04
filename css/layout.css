@@ -31,6 +31,7 @@ nav ul.menu_group .menu_1dep:last-child ul>li{width:198px;}
 nav ul.menu_group ul:hover{background-color:#fff;border-top:solid 1px #01479d;}
 nav ul.menu_group ul:hover:before{content:"";display:block;position:absolute;left:0;top:-2px;width:100%;height:2px;background-color:#01479d;}
 nav ul.menu_group .menu_1dep > a:hover ul.menu_2dep{background-color:#fff;border-top:solid 1px #01479d;}
+nav ul.menu_group .menu_1dep:hover ul.menu_2dep.on{ background:#fff; }
 nav ul.menu_group ul>li{clear:both;width:199px;text-align:center;}
 nav ul.menu_group ul>li a{display:block;width:199px;height:35px;line-height:35px;font-size:13px;color:#555;}
 nav ul.menu_group ul>li a:hover,

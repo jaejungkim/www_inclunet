@@ -32,11 +32,15 @@ nav ul.menu_group ul:hover{background-color:#fff;border-top:solid 1px #01479d;}
 nav ul.menu_group ul:hover:before{content:"";display:block;position:absolute;left:0;top:-2px;width:100%;height:2px;background-color:#01479d;}
 nav ul.menu_group .menu_1dep > a:hover ul.menu_2dep{background-color:#fff;border-top:solid 1px #01479d;}
 nav ul.menu_group .menu_1dep:hover ul.menu_2dep.on{ background:#fff; }
+nav ul.menu_group .menu_1dep:hover a{color:#01479d;}
+nav ul.menu_group .menu_1dep ul.menu_2dep.on a{color:#000;}
+nav ul.menu_group .menu_1dep ul.menu_2dep.on a:hover{color:#fff;}
 nav ul.menu_group ul>li{clear:both;width:199px;text-align:center;}
 nav ul.menu_group ul>li a{display:block;width:199px;height:35px;line-height:35px;font-size:13px;color:#555;}
 nav ul.menu_group ul>li a:hover,
 nav ul.menu_group ul>li a:focus,
 nav ul.menu_group ul>li a.active{color:#fff;background-color:#01479d;}
+
 
 /* NAV_MOBILE */
 .R5_mnav, .mnav_btn{display:none;font-size:0}

@@ -118,12 +118,13 @@
 /*  SOLUTION ::상단내용  */
 .solution_area{margin:35px 0 20px;}
 .solution_top{overflow:hidden;min-height:400px;padding:50px 0 30px;}
-.solution_bg1:before,.solution_bg2:before,.solution_bg3:before{padding-top:calc(400 / 700 * 50%);}
+.solution_bg1:before,.solution_bg2:before,.solution_bg3:before,.solution_bg5:before{padding-top:calc(400 / 700 * 50%);}
 .solution_bg4:before{padding-top:calc(450 / 700 * 50%);}
 .solution_bg1:before{background-image:url(../images/content/solution_b1.jpg);}
 .solution_bg2:before{background-image:url(../images/content/solution_b2.jpg);}
 .solution_bg3:before{background-image:url(../images/content/solution_b3.jpg);}
 .solution_bg4:before{background-image:url(../images/content/solution_b4.jpg);}
+.solution_bg5:before{background-image:url(../images/content/solution_b5.jpg);}
 .solution_txt{position:relative;font-size:16px;box-sizing:border-box;}
 .solution_txt:before{content:'';display:block;position:absolute;top:0;left:0;width:50%;height:0;background-size:cover !important;}
 .solution_txt p{position:relative; margin-bottom:20px;padding-left:53%;font-size:16px;}
@@ -158,7 +159,7 @@
 .solution_merit li:last-child{border-right:0 !important;}
 .solution_merit li h3{font-size:22px;color:#333; font-weight:500;margin:20px 0 10px;} 
 .solution_merit li p{display:block;font-weight:300; padding:5px 0;font-size:15px}
-.solution_merit li h3 b {font-weight:500;color:#014099; font-family:"Montserrat";}
+.solution_merit li h3 b {font-weight:bold;color:#014099; font-family:"Montserrat";}
 
 /*  SOLUTION ::주요기능2  */
 .solution_primary{border-top:1px solid #222;}
@@ -176,6 +177,44 @@
 .list_dotGray>li{display:block;position:relative;padding-left:10px;}
 .list_dotGray>li+li{margin-top:5px;}
 .list_dotGray>li::before{content:'';display:block;position:absolute;left:0;top:11px;overflow:hidden;width:3px;height:3px;border-radius:50%;background:#666;}
+
+/*  SOLUTION :: Virtual Pipe 개요  */
+.pipe_info { padding:60px 40px 40px; background:#f9f9f9; border:1px solid #e8e8e8; margin: 10px 0 40px}
+.pipe_top { border: 2px solid #0054a7; position: relative; padding: 28px 0px 15px; text-align: center; margin-bottom:20px; background:#fff;}
+.pipe_top > .pipeTitle {  position: absolute; left: 50%; top: -20px; width: 300px; margin-left:-150px; height: 40px; border-radius:40px; padding-top: 5px; font-size: 18px; line-height:30px; background:#0054a7; 
+display: block; color: #FFF; font-weight: 500; }
+.pipe_top b { font-size: 18px; }
+.pipe_top span { font-size: 20px; letter-spacing: -3px; color: #0054a7;  }
+.pipe_box{overflow:hidden; }
+.pipe_box li{float:left;width:32%;margin-right:2%;border:1px solid #e8e8e8;text-align:center;position:relative;padding:70px 40px 20px;background:#fff;}
+.pipe_box li:last-child{margin-right:0;}
+.pipe_box li strong{padding:10px;color:#333;display:block;position:absolute;top:0;left:0;width:100%; font-size:20px;}
+.pipe_box li strong span{display:block;font-size:20px;font-weight:500;}
+.pipe_box li p{text-align:left;padding:5px 0 5px 15px;position:relative;font-weight:300;}
+.pipe_box li p:after{content:'';width:4px;height:4px;border-radius:50%;position:absolute;left:0;top:14px;background:#005db5;} 
+.pipe_box li:nth-child(1) strong{background:#1aa1ce;color:#fff;}
+.pipe_box li:nth-child(2) strong{background:#2d66be;color:#fff;}
+.pipe_box li:nth-child(3) strong{background:#008860;color:#fff;}
+.pipe_box:after{content:'';display:block;clear:both;}   
+.pipe_merit{overflow:hidden;position:relative;margin: 0 0 40px} 
+.pipe_merit li{float:left; width:50%; padding:20px; border:1px solid #e8e8e8; }
+.pipe_merit li h3{font-size:20px;color:#333; font-weight:500;margin:0;} 
+.pipe_merit li p{display:block; padding:5px 0 0 25px;font-size:15px}
+.pipe_merit li h3 b {font-weight:bold;color:#014099; font-family:"Montserrat";}
+.pipe_merit:after{content:'';display:block;clear:both;}   
+.pipe_model{overflow:hidden; margin:0;}
+.pipe_model li{float:left;width:70%; margin-right:2%;border:1px solid #e8e8e8;text-align:center;position:relative;padding:80px 20px 20px; min-height:740px}
+.pipe_model li:last-child{margin-right:0; background:#f9f9f9; padding:20px 40px 20px; width:28%;}
+.pipe_model li .tit1_1{padding:10px;display:block;position:absolute;top:30px;left:40px;width:240px; font-size:18px;font-weight:500; background:#1aa1ce;color:#fff;  border-radius:50px;}
+.pipe_model li .tit1_2{padding:10px;display:block;position:absolute;top:30px;left:50%;width:240px; font-size:18px;font-weight:500; background:#0044a0;color:#fff; border-radius:50px;}
+.pipe_model li .pipeimg { text-align:center; display:block;width:100%;max-width:1000px;height:auto;margin:0 auto;}
+
+
+.pipe_model:after{content:'';display:block;clear:both;}   
+.pipe_model li .left_txt { float:left; width:48%; background:#f9f9f9; padding:10px 20px; border:1px solid #e8e8e8; text-align:left; min-height:100px;}
+.pipe_model li .right_txt { float:right; width:48%;  background:#f9f9f9; padding:10px 20px; border:1px solid #e8e8e8; text-align:left; min-height:100px;}
+.pipe_model li .tit2{padding:10px;display:block; width:260px; font-size:18px;font-weight:500; background:#008860;color:#fff; border-radius:50px; margin:10px 0 20px;}
+.pipe_model li .tit3{padding:10px;display:block; width:260px; font-size:18px;font-weight:500; background:#4840bb;color:#fff; border-radius:50px; margin:100px 0 20px;}
 
 /*  BUSINESS ::사업실적  */
 /* table 기본정보 */
@@ -290,6 +329,13 @@
 
 	.contact_cont{padding-left:30px;}
 
+	.pipe_merit{margin: 0 0 20px} 
+	.pipe_merit li{float:left; width:100%; padding:15px;}
+
+	.pipe_model li{float:left;width:100%; margin-right:0; padding:80px 20px 20px; min-height:auto;}
+	.pipe_model li:last-child{margin-right:0; padding:20px 40px 20px; width:100%; margin-top:20px;}
+	.pipe_model li .tit3{margin:10px 0 20px;}
+
 }
 /** 1200px 끝 **/
 
@@ -373,8 +419,7 @@
 	.recruit_inquiry_con > dd p{font-size:14.5px;line-height:25px;}
 
 	/*  SOLUTION ::상단내용  */
-	.solution_bg1:before,.solution_bg2:before,.solution_bg3:before{display:none;}
-	.solution_bg4:before{display:none;}
+	.solution_bg1:before,.solution_bg2:before,.solution_bg3,.solution_bg4,.solution_bg5:before{display:none;}
 	.solution_top{overflow:hidden;min-height:auto;padding:30px 0 10px;}
 	.solution_txt{font-size:14px;}
 	.solution_txt p{margin-bottom:20px;padding-left:1%;font-size:14px;}
@@ -405,6 +450,26 @@
 	/*  SOLUTION ::주요기능  */
 	.solution_primary li{width:100%;border-left:1px solid #dbdee1;padding:20px 20px 20px 80px;font-size:14px;}
 	.solution_primary li i{position:absolute;top:20px;left:20px;}
+
+	/*  SOLUTION :: Virtual Pipe 개요  */
+	.pipe_info { padding:40px 20px 20px; margin: 10px 0 40px}
+	.pipe_top > .pipeTitle {  width: 200px; margin-left:-100px;font-size: 18px; }
+	.pipe_top b { font-size: 15px; }
+	.pipe_top span { font-size: 16px;}	
+	.pipe_box li{padding:50px 20px 20px;background:#fff;}
+	.pipe_box li strong{padding:10px; font-size:15px;}
+	.pipe_box li strong span{font-size:15px;}
+	.pipe_box li p{padding:5px 0 5px 15px;}
+	.pipe_merit li p{padding:5px 0 0 5px;}
+	.pipe_model li{padding:80px 20px 20px;}
+	.pipe_model li:last-child{ padding:10px 20px 20px;}
+	.pipe_model li .tit1_1{padding:8px;width:140px; font-size:16px; top:20px; left:10px;}
+	.pipe_model li .tit1_2{padding:8px;width:160px; font-size:16px; top:20px;}
+	.pipe_model li .left_txt { width:100%; min-height:auto; padding:10px;}
+	.pipe_model li .right_txt { width:100%; min-height:auto; margin-top:10px; padding:10px;}
+	.pipe_model li .tit2{padding:8px; width:240px; font-size:16px; }
+	.pipe_model li .tit3{padding:8px; width:240px; font-size:16px; }	
+	.imgpipe {width:100%}
 
 	/*  BUSINESS ::사업실적  */
 	/* table 기본정보 */
@@ -484,8 +549,10 @@
 	.company_info ul li{line-height:40px;height:auto;padding:0;background:#fff;}
 	.company_info ul li strong{display:block;width:100%;padding-left:10px;height:auto}
 	.company_info ul li span{padding:0 10px;line-height:30px;font-size:13px}
-	
 
+	.pipe_merit li h3{font-size:16px;margin:0;} 
+	.pipe_box li{float:left;width:100%;margin-right:0; padding:50px 20px 10px;}
+	.pipe_box li:last-child{margin-right:0;}
 
 }
 /** 480px 끝 **/

@@ -67,12 +67,11 @@ nav ul.menu_group ul>li a.active{color:#fff;background-color:#01479d;}
 .sub_menu .submenu li:last-child{border-right:0;}
 .sub_menu .submenu.col2 li{width:50%;}
 .sub_menu .submenu.col3 li{width:33.333%;}
-.sub_menu .submenu li a{display:inline-block;text-align:center;color:#fff;font-size:17px;font-weight:500;margin:20px 0;}
+.sub_menu .submenu li a{display:inline-block;text-align:center;color:#fff;font-size:17px;font-weight:500;margin:16px 0;}
 .sub_menu .submenu li.on{background:#fff;color:#0b71ba;}
 .sub_menu .submenu li.on a{color:#000;}
-.sub_menu .submenu li a:hover,
-.sub_menu .submenu li a:focus,
-.sub_menu .submenu li a.active{text-decoration:underline;}
+.sub_menu .submenu li span.stxt {display: block; font-family: 'Poppins', sans-serif; font-size:16px; padding-top:3px;}
+
 
 /* FOOTER */	
 footer{position:relative;width:100%;background:#4d515a; margin:0;padding:30px;}
@@ -154,6 +153,8 @@ footer .footer_wrap p strong{font-weight:500;color:#a0a3a9;}
 	.sub_visual .sub_tit{font-size:25px;padding:30px 0;}
 	.sub_visual .sub_tit span{font-size:15px;}
 	.sub_menu .submenu li a{font-size:14px;margin:15px 0;}
+	.sub_menu .submenu li span.stxt {display: none;}
+
 
 	/* FOOTER */
 	footer.hold{position:fixed;display:none;}
@@ -164,10 +165,22 @@ footer .footer_wrap p strong{font-weight:500;color:#a0a3a9;}
 /** 780px 끝 **/
 
 
+/** 360px 시작 **/
+@media all and (max-width:360px) {
+
+	.sub_menu .submenu li a{font-size:13px; margin:10px 0;}
+
+}
+/** 360px 끝 **/
+
+
 /** 320px 시작 **/
 @media all and (max-width:320px) {
 
 	.R5_mnav{width:95%;right:-340px;}  
+	.sub_menu .submenu li{width:50%; border-top:1px solid rgba(255,255,255,0.3);}
+	.sub_menu .submenu li a{font-size:12px;}
+
 
 }
 /** 320px 끝 **/

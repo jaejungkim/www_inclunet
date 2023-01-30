@@ -40,9 +40,10 @@
 .m_slogan p span{display:block;}
 .m_slogan p{transition-timing-function:ease-in;-webkit-animation:ani_effect 1s;animation:ani_effect 1s;animation-fill-mode:forwards;animation-delay:0.8s;}
 .m_slogan p br{display:none;}
+
 /* wrap_system */
 .wrap_system .system_list{max-width:1400px;margin:0 auto;font-size:0;text-align:center;padding:60px 0 30px;}
-.wrap_system .system_item{position:relative;display:inline-block;width:33.3333%;}
+.wrap_system .system_item{position:relative;display:inline-block;width:25%;}
 .wrap_system .system_item:after{content:"";position:absolute;top:50%;left:0;display:block;width:1px;height:140px;margin-top:-68px;background:#ededed;}
 .wrap_system .system_item:first-child:after{display:none;}
 .wrap_system .system_box{margin:0;}
@@ -78,6 +79,7 @@
 
 	.wrap_system .system_box .system_text{font-size:14px;}
 	.wrap_partner .partner_item img{width:80%;}
+	.wrap_system .system_item{width:50%; margin-bottom:15px;}
 	
 }
 /** 1200px 끝 **/

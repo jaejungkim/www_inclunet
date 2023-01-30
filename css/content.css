@@ -323,6 +323,7 @@ display: block; color: #FFF; font-weight: 500; }
 	.history_longtxt{padding-left:0px;}
 	.history-br{display:none;}
 
+	.solution_top{min-height:auto;padding:30px 0 20px;}
 	.solution_merit li br{display:none;}
 	.solution_txt p:first-child{margin-bottom:30px;line-height:30px;font-size:20px;}
 	.solution_txt p strong {font-size:28px; }
@@ -420,10 +421,10 @@ display: block; color: #FFF; font-weight: 500; }
 
 	/*  SOLUTION ::상단내용  */
 	.solution_bg1:before,.solution_bg2:before,.solution_bg3,.solution_bg4,.solution_bg5:before{display:none;}
-	.solution_top{overflow:hidden;min-height:auto;padding:30px 0 10px;}
+	.solution_top{overflow:hidden;min-height:auto;padding:20px 0 10px;}
 	.solution_txt{font-size:14px;}
 	.solution_txt p{margin-bottom:20px;padding-left:1%;font-size:14px;}
-	.solution_txt p:first-child{font-size:16px;line-height:26px;margin-bottom:20px;}
+	.solution_txt p:first-child{font-size:16px;line-height:26px;margin-bottom:10px;}
 	.solution_txt ul{padding-left:1%;}
 	.solution_txt ul li{margin-bottom:15px;line-height:20px;padding-left:30px;font-size:14px;}
 	.solution_txt ul li:after{width:20px;height:20px;background-size:100%;}

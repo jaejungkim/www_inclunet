@@ -424,7 +424,7 @@ display: block; color: #FFF; font-weight: 500; }
 	.solution_top{overflow:hidden;min-height:auto;padding:20px 0 10px;}
 	.solution_txt{font-size:14px;}
 	.solution_txt p{margin-bottom:20px;padding-left:1%;font-size:14px;}
-	.solution_txt p:first-child{font-size:16px;line-height:26px;margin-bottom:10px;}
+	.solution_txt p:first-child{font-size:16px;line-height:26px;margin-bottom:20px;}
 	.solution_txt ul{padding-left:1%;}
 	.solution_txt ul li{margin-bottom:15px;line-height:20px;padding-left:30px;font-size:14px;}
 	.solution_txt ul li:after{width:20px;height:20px;background-size:100%;}

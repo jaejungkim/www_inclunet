@@ -34,7 +34,7 @@
 .business_box li strong{padding:15px;color:#333;display:block;position:absolute;top:0;left:0;width:100%; font-size:15px;}
 .business_box li strong span{display:block;font-size:20px;font-family:'Poppins', sans-serif;font-weight:500;}
 .business_box li h3{font-size:18px;color:#333;font-weight:500;margin:20px 0;}
-.business_box li p{text-align:left;padding:5px 0 5px 15px;position:relative;font-weight:300;}
+.business_box li p{text-align:left;padding:5px 0 5px 15px;position:relative;}
 .business_box li p:after{content:'';width:4px;height:4px;border-radius:50%;position:absolute;left:0;top:14px;background:#005db5;} 
 .business_box li:nth-child(1) strong{background:#1aa1ce;color:#fff;}
 .business_box li:nth-child(2) strong{background:#2d66be;color:#fff;}
@@ -55,7 +55,7 @@
 /*  COMPANY ::CEO 인사말  */
 .ceo_area{padding:20px 0;}
 .ceo_area .ceo_title {position:relative;font-size:34px;letter-spacing:-1px;font-weight:600;line-height:48px;color:#000;}
-.ceo_area .ceo_title strong{display:block;font-weight:300;line-height:48px;}
+.ceo_area .ceo_title strong{display:block;line-height:48px;}
 .ceo_area .ceo_img{display:inline-block;width:420px;vertical-align:top;}
 .ceo_area .ceo_txt{display:inline-block;width:calc(100% - 440px);padding-left:0;vertical-align:top;}
 .ceo_area .ceo_txt p{margin-top:30px;font-size:16px;line-height:28px;}
@@ -158,7 +158,7 @@
 .solution_merit li:nth-child(2){border-left:1px solid #e8e8e8;border-right:1px solid #e8e8e8;} 
 .solution_merit li:last-child{border-right:0 !important;}
 .solution_merit li h3{font-size:22px;color:#333; font-weight:500;margin:20px 0 10px;} 
-.solution_merit li p{display:block;font-weight:300; padding:5px 0;font-size:15px}
+.solution_merit li p{display:block;padding:5px 0;font-size:15px}
 .solution_merit li h3 b {font-weight:bold;color:#014099; font-family:"Montserrat";}
 
 /*  SOLUTION ::주요기능2  */
@@ -190,7 +190,7 @@ display: block; color: #FFF; font-weight: 500; }
 .pipe_box li:last-child{margin-right:0;}
 .pipe_box li strong{padding:10px;color:#333;display:block;position:absolute;top:0;left:0;width:100%; font-size:20px;}
 .pipe_box li strong span{display:block;font-size:20px;font-weight:500;}
-.pipe_box li p{text-align:left;padding:5px 0 5px 15px;position:relative;font-weight:300;}
+.pipe_box li p{text-align:left;padding:5px 0 5px 15px;position:relative;}
 .pipe_box li p:after{content:'';width:4px;height:4px;border-radius:50%;position:absolute;left:0;top:14px;background:#005db5;} 
 .pipe_box li:nth-child(1) strong{background:#1aa1ce;color:#fff;}
 .pipe_box li:nth-child(2) strong{background:#2d66be;color:#fff;}
@@ -265,7 +265,7 @@ display: block; color: #FFF; font-weight: 500; }
 .partner_area{transition-timing-function:ease-in;-webkit-animation:ani_effect 1s;animation:ani_effect 1s;animation-fill-mode:forwards;animation-delay:0.5s;}
 
 /*  CONTACT ::고객문의  */
-.contact_title{font-size:20px;color:#5c5c5c;font-weight:300;text-align:center;padding:60px 0;border-bottom:1px solid #e5e5e5; border-top:1px solid #e5e5e5; line-height:40px;}
+.contact_title{font-size:20px;color:#5c5c5c;text-align:center;padding:60px 0;border-bottom:1px solid #e5e5e5; border-top:1px solid #e5e5e5; line-height:40px;}
 .contact_title > strong{display:block;font-size:26px;color:#333;font-weight:500;}
 .contact_title > strong span{color:#273baa;}
 .contact_title br{display:none;}

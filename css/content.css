@@ -123,7 +123,7 @@
 .solution_bg1:before{background-image:url(../images/content/solution_b1.jpg);}
 .solution_bg2:before{background-image:url(../images/content/solution_b2.jpg);}
 .solution_bg3:before{background-image:url(../images/content/solution_b3.jpg);}
-.solution_bg4:before{background-image:url(../images/content/solution_b4.jpg);}
+.solution_bg4:before{background-image:url(../images/content/solution_b4_n.jpg);}
 .solution_bg5:before{background-image:url(../images/content/solution_b5.jpg);}
 .solution_txt{position:relative;font-size:16px;box-sizing:border-box;}
 .solution_txt:before{content:'';display:block;position:absolute;top:0;left:0;width:50%;height:0;background-size:cover !important;}

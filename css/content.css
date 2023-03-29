@@ -431,7 +431,6 @@ display: block; color: #FFF; font-weight: 500; }
 	.solution_txt ul li:after{width:20px;height:20px;background-size:100%;}
 
 	.img_solution {display: inline-block; margin-bottom:10px;}
-	.img_solution img{ width:100%;}
 	
 	/*  SOLUTION ::기능  */
 	.solution_skill>li b{font-size:16px;}

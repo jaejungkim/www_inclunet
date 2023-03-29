@@ -133,6 +133,7 @@
 .solution_txt ul{position:relative; padding-left:53%;}
 .solution_txt ul li{position:relative;margin-bottom:20px;line-height:25px;padding-left:35px;font-size:16px;}
 .solution_txt ul li:after{content:'';background:url(../images/content/li_check.png);width:25px;height:25px;position:absolute;left:0;top:0;}
+.img_solution {display: none;}
 
 .leaflet {position:relative;  padding:5px 0;}
 .leaflet_Down { display: inline-block; border: 1px solid #0462b7; height: 40px; padding: 0 55px 0 15px; color: #0462b7; font-weight: 500; line-height: 38px; text-align: left; background: url('../images/content/filedown_b.png') no-repeat right; font-size: 16px; }
@@ -428,6 +429,9 @@ display: block; color: #FFF; font-weight: 500; }
 	.solution_txt ul{padding-left:1%;}
 	.solution_txt ul li{margin-bottom:15px;line-height:20px;padding-left:30px;font-size:14px;}
 	.solution_txt ul li:after{width:20px;height:20px;background-size:100%;}
+
+	.img_solution {display: inline-block; margin-bottom:10px;}
+	.img_solution img{ width:100%;}
 	
 	/*  SOLUTION ::기능  */
 	.solution_skill>li b{font-size:16px;}

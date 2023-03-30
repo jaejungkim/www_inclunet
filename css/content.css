@@ -117,7 +117,7 @@
 
 /*  SOLUTION ::상단내용  */
 .solution_area{margin:35px 0 20px;}
-.solution_top{overflow:hidden;min-height:400px;padding:50px 0 30px;}
+.solution_top{overflow:hidden;padding:50px 0 30px;}
 .solution_bg1:before,.solution_bg2:before,.solution_bg3:before,.solution_bg5:before{padding-top:calc(400 / 700 * 50%);}
 .solution_bg4:before{padding-top:calc(450 / 700 * 50%);}
 .solution_bg1:before{background-image:url(../images/content/solution_b1.jpg);}
@@ -324,7 +324,7 @@ display: block; color: #FFF; font-weight: 500; }
 	.history_longtxt{padding-left:0px;}
 	.history-br{display:none;}
 
-	.solution_top{min-height:auto;padding:30px 0 20px;}
+	.solution_top{padding:30px 0 20px;}
 	.solution_merit li br{display:none;}
 	.solution_txt p:first-child{margin-bottom:30px;line-height:30px;font-size:20px;}
 	.solution_txt p strong {font-size:28px; }

@@ -560,6 +560,8 @@ display: block; color: #FFF; font-weight: 500; }
 	.pipe_merit li h3{font-size:16px;margin:0;} 
 	.pipe_box li{float:left;width:100%;margin-right:0; padding:50px 20px 10px;}
 	.pipe_box li:last-child{margin-right:0;}
+	
+	.list_dotGray>li::before{top:7px;}
 
 }
 /** 480px 끝 **/

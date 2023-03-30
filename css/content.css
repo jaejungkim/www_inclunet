@@ -135,7 +135,7 @@
 .solution_txt ul li:after{content:'';background:url(../images/content/li_check.png);width:25px;height:25px;position:absolute;left:0;top:0;}
 .img_solution {display: none;}
 
-.leaflet {position:relative;  padding:5px 0;}
+.leaflet {position:relative;  padding:5px 0 20px;}
 .leaflet_Down { display: inline-block; border: 1px solid #0462b7; height: 40px; padding: 0 55px 0 15px; color: #0462b7; font-weight: 500; line-height: 38px; text-align: left; background: url('../images/content/filedown_b.png') no-repeat right; font-size: 16px; }
 .leaflet_View { display: inline-block; border: 1px solid #dd0011; height: 40px; padding: 0 55px 0 15px; color: #dd0011; font-weight: 500; line-height: 38px; text-align: left; background: url('../images/content/filedown_r.png') no-repeat right; font-size: 16px; }
 
@@ -337,6 +337,8 @@ display: block; color: #FFF; font-weight: 500; }
 	.pipe_model li{float:left;width:100%; margin-right:0; padding:80px 20px 20px; min-height:auto;}
 	.pipe_model li:last-child{margin-right:0; padding:20px 40px 20px; width:100%; margin-top:20px;}
 	.pipe_model li .tit3{margin:10px 0 20px;}
+
+	.leaflet {padding:5px 0;}
 
 }
 /** 1200px 끝 **/

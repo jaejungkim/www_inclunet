@@ -136,8 +136,8 @@
 .img_solution {display: none;}
 
 .leaflet {position:relative;  padding:5px 0 20px;}
-.leaflet_Down { display: inline-block; border: 1px solid #0462b7; height: 40px; padding: 0 55px 0 15px; color: #0462b7; font-weight: 500; line-height: 38px; text-align: left; background: url('../images/content/filedown_b.png') no-repeat right; font-size: 16px; }
-.leaflet_View { display: inline-block; border: 1px solid #dd0011; height: 40px; padding: 0 55px 0 15px; color: #dd0011; font-weight: 500; line-height: 38px; text-align: left; background: url('../images/content/filedown_r.png') no-repeat right; font-size: 16px; }
+.leaflet_Down { display: inline-block; border: 1px solid #0462b7; height: 40px; padding: 0 55px 0 15px; color: #0462b7; font-weight: 500; line-height: 38px; text-align: left; background:#fff url('../images/content/filedown_b.png') no-repeat right; font-size: 16px; }
+.leaflet_View { display: inline-block; border: 1px solid #dd0011; height: 40px; padding: 0 55px 0 15px; color: #dd0011; font-weight: 500; line-height: 38px; text-align: left; background:#fff url('../images/content/filedown_r.png') no-repeat right; font-size: 16px; }
 
 /*  SOLUTION ::주요기능1  */
 .solution_skill{border-top:2px solid #222;}

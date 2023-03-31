@@ -129,7 +129,7 @@
 .solution_txt:before{content:'';display:block;position:absolute;top:0;left:0;width:50%;height:0;background-size:cover !important;}
 .solution_txt p{position:relative; margin-bottom:20px;padding-left:53%;font-size:16px;}
 .solution_txt p:first-child{margin-bottom:40px;line-height:40px;color:#333;font-size:24px;font-weight:500;}
-.solution_txt p strong {font-size:38px; font-weight:bold; font-family: 'Poppins', sans-serif; padding-top:5px; display: block; color:#000;}
+.solution_txt p strong {display: block; font-size:38px; font-weight:bold; font-family: 'Poppins', sans-serif; padding-top:5px; display: block; color:#000;}
 .solution_txt ul{position:relative; padding-left:53%;}
 .solution_txt ul li{position:relative;margin-bottom:20px;line-height:25px;padding-left:35px;font-size:16px;}
 .solution_txt ul li:after{content:'';background:url(../images/content/li_check.png);width:25px;height:25px;position:absolute;left:0;top:0;}

@@ -87,6 +87,19 @@ footer .footer_wrap p strong{font-weight:500;color:#a0a3a9;}
 /** 1400px 시작 **/
 @media (max-width:1400px) {	
 	
+	.wrap_header .nav_wrap nav{margin-right:1%;}
+	nav ul.menu_group .menu_1dep > a{width:160px;}
+	nav ul.menu_group .menu_1dep:last-child ul>li{width:158px;}
+	nav ul.menu_group ul>li{width:159px;}
+	nav ul.menu_group ul>li a{width:159px;font-size:13px;}
+		
+}
+/** 1400px 끝 **/
+
+
+/** 980px 시작 **/
+@media (max-width:980px) {	
+	
 	.wrap_header .nav_wrap h1 img{margin:0 0 0 30px;}
 	.wrap_header .nav_wrap nav{margin-right:1%;}
 	nav ul.menu_group .menu_1dep > a{width:140px;}
@@ -95,7 +108,8 @@ footer .footer_wrap p strong{font-weight:500;color:#a0a3a9;}
 	nav ul.menu_group ul>li a{width:139px;font-size:13px;}
 		
 }
-/** 1400px 끝 **/
+/** 980px 끝 **/
+
 
 
 /** 780px 시작 **/

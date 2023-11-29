@@ -353,11 +353,14 @@ display: block; color: #FFF; font-weight: 500; }
 	/*  PAGE :기본  */
 	.page_area{margin:0;}
 	.page_area > div{width:92%;margin:0 auto;}
+	
+	.table > * > tr > *[scope]{font-size:13px;}
+	.bd_tbl > * > tr > *{padding:8px 5px;font-size:13px;}
 
 	/* 타이틀 */
 	.page_title{display:block;position:relative;padding:10px 0;font-size:30px;margin:60px 0 20px;}	
 	.page_title img{height:34px;}
-	.titleH4{font-size:24px;}
+	.titleH4{font-size:22px;}
 	.titleH4 span{display:none;}
 		
 	/*  COMPANY ::회사소개  */
@@ -386,9 +389,9 @@ display: block; color: #FFF; font-weight: 500; }
 	.ceo_area {padding:0;}
 	.ceo_area .ceo_img{width:100%;}
 	.ceo_area .ceo_img img{width:180px;}
-    .ceo_area .ceo_txt{width:100%;padding-left:0px;margin-top:20px;}
-    .ceo_area .ceo_title{font-size:23px;line-height:28px;}
-    .ceo_area .ceo_txt p{margin-top:20px;font-size:15px;line-height:25px;}
+    	.ceo_area .ceo_txt{width:100%;padding-left:0px;margin-top:20px;}
+   	 .ceo_area .ceo_title{font-size:23px;line-height:28px;}
+   	 .ceo_area .ceo_txt p{margin-top:20px;font-size:15px;line-height:25px;}
 	.ceo_cont img{height:40px}
 
 	/*  COMPANY ::연혁  */
@@ -539,6 +542,9 @@ display: block; color: #FFF; font-weight: 500; }
 	.map_info{padding:10px 20px;}
 	.map_info h4{line-height:50px;font-size:20px;min-width:200px;}
 	.map_info li{line-height:22px;font-size:14px;padding:9px 20px 9px 50px;}
+	
+	
+	
 
 }
 /** 780px 끝 **/

@@ -244,7 +244,7 @@ display: block; color: #FFF; font-weight: 500; }
 /* 게시판 list */
 .bd_tbl > * > tr > td.bg1{font-size:12px;padding:5px 0;background:#f9fafb;}
 .bd_tbl{border-top:2px solid #222;}
-.bd_tbl > * > tr > *{padding:20px 10px;font-size:15px;}
+.bd_tbl > * > tr > *{padding:10px;font-size:15px;}
 
 /* 게시판 간격 */
 .bd_num,.bd_hit,.bd_recruit2,.bd_recruit4{width:8%;}

@@ -31,7 +31,7 @@
 .slick-next:focus{outline:none;}
 
 .m_bak{height:600px}
-.m_slogan{position:absolute;text-align:center;color:#fff;margin:0 auto;width:100%;top:25%;z-index:88;}
+.m_slogan{position:absolute;text-align:center;color:#fff;margin:0 auto;width:100%;top:30%;z-index:88;}
 .m_slogan{height:auto;word-break:keep-all;display:block; overflow:hidden; }
 .m_slogan h3{opacity:0; font-size:45px;letter-spacing:-1px;margin:0 0 1.5rem; text-shadow:0 1px 1px rgba(0,0,0,.5);line-height:1.2;font-weight:600;padding-bottom:40px;font-family:'Poppins', sans-serif;}
 .m_slogan h3:after{content:'';position:absolute;bottom:0;left:50%;width:60px;height:2px;background:#fff; letter-spacing:-0.08em;margin-left:-30px;}

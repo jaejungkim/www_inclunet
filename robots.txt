@@ -1,4 +1,3 @@
 User-agent: *
-Disallow: /
-Allow: /$
+Disallow: 
 Sitemap: https://www.inclunet.com/sitemap.xml

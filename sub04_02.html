@@ -32,6 +32,22 @@
     	</script>
     	<script type="text/javascript" src="js/comm_mnav.js"></script>
    	<script type="text/javascript" src="js/main.js"></script>
+<!--
+	2. 설치 스크립트
+	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+-->
+<script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
+
+<!-- 3. 실행 스크립트 -->
+<script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1711591694094",
+		"key" : "2ipou",
+		"mapWidth" : "1200",
+		"mapHeight" : "600"
+	}).render();
+</script>
+
 </head>
 
 <body> 
@@ -140,7 +156,16 @@
 			<!-- CONTACT ::  오시는길 S-->
 			<div class="page_area">	
 				<div class="map_area">	
-						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12850.563674024248!2d127.3814484!3d36.3694757!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35654960bae2ee8f%3A0xaf1155a74fb90c36!2zKOyjvCnsnbjtgazro6jrhLc!5e0!3m2!1sko!2skr!4v1691039562371!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						
+						<!--<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12850.563674024248!2d127.3814484!3d36.3694757!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35654960bae2ee8f%3A0xaf1155a74fb90c36!2zKOyjvCnsnbjtgazro6jrhLc!5e0!3m2!1sko!2skr!4v1691039562371!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+-->
+
+
+<!-- * 카카오맵 - 지도퍼가기 -->
+<!-- 1. 지도 노드 -->
+<div id="daumRoughmapContainer1711591694094" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+
+
 				</div>
 
 				<div class="map_info">

@@ -215,7 +215,6 @@ display: block; color: #FFF; font-weight: 500; }
 .pipe_model li .tit1_2{padding:10px;display:block;position:absolute;top:30px;left:50%;width:240px; font-size:18px;font-weight:500; background:#0044a0;color:#fff; border-radius:50px;}
 .pipe_model li .pipeimg { text-align:center; display:block;width:100%;max-width:1000px;height:auto;margin:0 auto;}
 
-
 .pipe_model:after{content:'';display:block;clear:both;}   
 .pipe_model li .left_txt { float:left; width:48%; background:#f9f9f9; padding:10px 20px; border:1px solid #e8e8e8; text-align:left; min-height:100px;}
 .pipe_model li .right_txt { float:right; width:48%;  background:#f9f9f9; padding:10px 20px; border:1px solid #e8e8e8; text-align:left; min-height:100px;}
@@ -251,6 +250,13 @@ display: block; color: #FFF; font-weight: 500; }
 .bd_work_day{width:18%;}
 .bd_work_order{width:15%;}
 .bd_recruit1{width:15%;}
+
+.morebtn_wrap {margin:40px auto 0; text-align:center;}
+.hidden {display: none;}
+.more_btn { margin:0 auto;  border:2px solid #4d515a;  padding:10px 50px; border-radius: 60px; color:#4d515a; background:##f4f6fb}
+.more_btn span {font-size: 16px;   font-weight: 500; }
+.more_btn:hover{color:#fff; background:#4d515a;}
+
 
 /*  BUSINESS ::협력사  */
 .partner_area{overflow:hidden;position:relative;padding:60px 0 20px;}

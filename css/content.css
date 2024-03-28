@@ -557,6 +557,8 @@ display: block; color: #FFF; font-weight: 500; }
 	.map_info h4{line-height:50px;font-size:20px;min-width:200px;}
 	.map_info li{line-height:22px;font-size:14px;padding:9px 20px 9px 50px;}
 
+	.morebtn_wrap {margin:30px auto 20px; text-align:center;}
+
 }
 /** 780px 끝 **/
 

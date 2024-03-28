@@ -82,7 +82,7 @@ footer .footer_wrap p span.spacer{position:relative;margin-right:15px;padding-ri
 footer .footer_wrap p span.spacer:before{display:inline-block;position:absolute;top:5px;left:14px;width:1px;height:10px;background:#666;content:'';}
 footer .footer_wrap p.copyright{margin-top:10px;color:#8d9197;}
 footer .footer_wrap p strong{font-weight:500;color:#a0a3a9;}
-
+footer .footer_wrap a {color:#fff;}
 
 /** 1400px 시작 **/
 @media (max-width:1400px) {	

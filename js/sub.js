@@ -34,3 +34,17 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
+
+// 페이지 TOP 버튼 숨김
+document.addEventListener('DOMContentLoaded', function() {
+    const topButton = document.querySelector('.go_top');
+    topButton.classList.add('hidden');
+
+    window.addEventListener('scroll', function() {
+        if (window.scrollY < 100) { // 화면 상단으로부터 100px 이상 스크롤되었을 때
+            topButton.classList.add('hidden');
+        } else {
+            topButton.classList.remove('hidden');
+        }
+    });
+});

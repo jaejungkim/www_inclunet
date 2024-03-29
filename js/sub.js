@@ -2,28 +2,26 @@
 
 // 게시판 더보기 
 document.addEventListener('DOMContentLoaded', function() {
-    const showPerPage = 15;		// 한 번에 표시할 항목 수
+    const mobileWidth  = 780;       // 화면 너비가 이 값보다 작으면 모바일로 간주
+    const desktopShowPerPage = 15;  // 데스크탑에서 한 번에 표시할 항목 수
+    const mobileShowPerPage = 5;    // 모바일에서 한 번에 표시할 항목 수
     const moreBtn = document.querySelector('.more_btn');
     const tbody = document.querySelector('.bd_tbl tbody');
     const items = Array.from(tbody.children);		// tbody의 모든 자식 요소를 배열로 변환
 
-    let currentIndex = showPerPage;		// 현재 표시된 마지막 항목의 인덱스
+    let currentIndex;		// 현재 표시된 마지막 항목의 인덱스
 
-    // 초기에는 showPerPage만큼의 항목만 표시하고, 나머지는 숨김
-    items.forEach((item, index) => {
-        if (index >= showPerPage) {
-            item.classList.add('hidden');
-        }
-    });
+    // 초기에는 테스크탑과 모바일에 따라 다르게 설정된 항목 수로 표시
+    setItemsToShow();
 
     // "더보기" 버튼을 클릭하면 추가 항목을 표시
-    moreBtn.addEventListener('click', function() {
+    moreBtn.addEventListener('click', function(event) {
         event.preventDefault(); // 기본 이벤트(링크 이동) 방지
 
-        const nextIndex = currentIndex + showPerPage;	// 다음에 표시될 마지막 항목의 인덱스
+        const nextIndex = currentIndex + getShowPerPage();	// 다음에 표시될 마지막 항목의 인덱스
 
         items.slice(currentIndex, nextIndex).forEach(item => {
-            item.classList.remove('hidden');
+            item.style.display = ''; // 요소를 보이도록 변경
         });
         
         currentIndex = nextIndex;
@@ -33,11 +31,38 @@ document.addEventListener('DOMContentLoaded', function() {
             moreBtn.style.display = 'none';
         }
     });
+
+    // 화면 크기에 따라 표시할 항목 수 설정
+    function setItemsToShow() {
+        currentIndex = window.innerWidth <= mobileWidth ? mobileShowPerPage : desktopShowPerPage;
+        hideItemsAfterIndex(currentIndex);
+    }
+
+    // 화면 크기 변경 시 항목 수 재설정
+    window.addEventListener('resize', function() {
+        setItemsToShow();
+    });
+
+    // 특정 인덱스 이후의 항목 숨기기
+    function hideItemsAfterIndex(index) {
+        items.forEach((item, idx) => {
+            if (idx >= index) {
+                item.style.display = 'none'; // 요소를 숨김
+            }
+        });
+    }
+
+    // 현재 화면 크기에 따라 보여줄 항목 수 반환
+    function getShowPerPage() {
+        return window.innerWidth <= mobileWidth ? mobileShowPerPage : desktopShowPerPage;
+
+        
+    }
 });
 
 // 페이지 TOP 버튼 숨김
 document.addEventListener('DOMContentLoaded', function() {
-    const topButton = document.querySelector('.go_top');
+    const topButton = document.querySelector('.floating_top');
     topButton.classList.add('hidden');
 
     window.addEventListener('scroll', function() {

@@ -72,7 +72,6 @@ nav ul.menu_group ul>li a.active{color:#fff;background-color:#01479d;}
 .sub_menu .submenu li.on a{color:#000;}
 .sub_menu .submenu li span.stxt {display: block; font-family: 'Poppins', sans-serif; font-size:16px; padding-top:3px;}
 
-
 /* FOOTER */	
 footer{position:relative;width:100%;background:#4d515a; margin:0;padding:30px;}
 footer:after{content:'';display:block;clear:both;}   
@@ -83,6 +82,11 @@ footer .footer_wrap p span.spacer:before{display:inline-block;position:absolute;
 footer .footer_wrap p.copyright{margin-top:10px;color:#8d9197;}
 footer .footer_wrap p strong{font-weight:500;color:#a0a3a9;}
 footer .footer_wrap a {color:#fff;}
+
+.go_top { position: fixed; right: 2rem;   bottom: 1.5rem;; padding: 0; }
+.go_top a { display: block; width: 54px; height: 54px;  color: #fff; text-align: center; text-decoration: none; box-sizing: border-box; border-radius: 50%;-webkit-border-radius: 50%; 
+background:#08347f url(../images/common/gotop.png) no-repeat center center; text-indent:-9999px;}
+
 
 /** 1400px 시작 **/
 @media (max-width:1400px) {	
@@ -106,6 +110,8 @@ footer .footer_wrap a {color:#fff;}
 	nav ul.menu_group .menu_1dep:last-child ul>li{width:138px;}
 	nav ul.menu_group ul>li{width:139px;}
 	nav ul.menu_group ul>li a{width:139px;font-size:13px;}
+
+	.go_top {display:none;}
 		
 }
 /** 980px 끝 **/
@@ -174,6 +180,8 @@ footer .footer_wrap a {color:#fff;}
 	footer.hold{position:fixed;display:none;}
 	footer{ width:100%;padding:15px;}
 	footer .footer_wrap p{font-size:13px;line-height:20px}
+
+	
 
 }
 /** 780px 끝 **/

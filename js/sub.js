@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // 페이지 TOP 버튼 숨김
 document.addEventListener('DOMContentLoaded', function() {
-    const topButton = document.querySelector('.floating_top');
+    const topButton = document.querySelector('.go_top');
     topButton.classList.add('hidden');
 
     window.addEventListener('scroll', function() {

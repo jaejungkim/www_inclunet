@@ -1,44 +1,97 @@
+/* Noto Sans KR */
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-weight: 100;
+	src: url(../font/noto/NotoSansKR-Thin.woff2) format('woff2'),
+		 url(../font/noto/NotoSansKR-Thin.woff) format('woff'),
+		 url(../font/noto/NotoSansKR-Thin.otf) format('opentype');
+}
 
 @font-face {
-    font-family: 'Noto Sans KR';
-    font-weight: 100;
-    src: url(../font/noto/NotoSansKR-Thin.woff2) format('woff2'),
-         url(../font/noto/NotoSansKR-Thin.woff) format('woff'),
-         url(../font/noto/NotoSansKR-Thin.otf) format('opentype');
- }
- @font-face {
-    font-family: 'Noto Sans KR';
-    font-weight: 300;
-    src: url(../font/noto/NotoSansKR-Light.woff2) format('woff2'),
-         url(../font/noto/NotoSansKR-Light.woff) format('woff'),
-         url(../font/noto/NotoSansKR-Light.otf) format('opentype');
- }
- @font-face {
-    font-family: 'Noto Sans KR';
-    font-weight: normal;
-    src: url(../font/noto/NotoSansKR-Regular.woff2) format('woff2'),
-         url(../font/noto/NotoSansKR-Regular.woff) format('woff'),
-         url(../font/noto/NotoSansKR-Regular.otf) format('opentype');
- }
- @font-face {
-    font-family: 'Noto Sans KR';
-    font-weight: 500;
-    src: url(../font/noto/NotoSansKR-Medium.woff2) format('woff2'),
-         url(../font/noto/NotoSansKR-Medium.woff) format('woff'),
-         url(../font/noto/NotoSansKR-Medium.otf) format('opentype');
- }
- @font-face {
-    font-family: 'Noto Sans KR';
-    font-weight: 700;
-    src: url(../font/noto/NotoSansKR-Bold.woff2) format('woff2'),
-         url(../font/noto/NotoSansKR-Bold.woff) format('woff'),
-         url(../font/noto/NotoSansKR-Bold.otf) format('opentype');
- }
- @font-face {
-    font-family: 'Noto Sans KR';
-    font-weight: 900;
-    src: url(../font/noto/NotoSansKR-Black.woff2) format('woff2'),
-         url(../font/noto/NotoSansKR-Black.woff) format('woff'),
-         url(../font/noto/NotoSansKR-Black.otf) format('opentype');
- }
+	font-family: 'Noto Sans KR';
+	font-weight: 300;
+	src: url(../font/noto/NotoSansKR-Light.woff2) format('woff2'),
+		 url(../font/noto/NotoSansKR-Light.woff) format('woff'),
+		 url(../font/noto/NotoSansKR-Light.otf) format('opentype');
+}
 
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-weight: normal;
+	src: url(../font/noto/NotoSansKR-Regular.woff2) format('woff2'),
+		 url(../font/noto/NotoSansKR-Regular.woff) format('woff'),
+		 url(../font/noto/NotoSansKR-Regular.otf) format('opentype');
+}
+
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-weight: 500;
+	src: url(../font/noto/NotoSansKR-Medium.woff2) format('woff2'),
+		 url(../font/noto/NotoSansKR-Medium.woff) format('woff'),
+		 url(../font/noto/NotoSansKR-Medium.otf) format('opentype');
+}
+@font-face {
+font-family: 'Noto Sans KR';
+font-weight: 700;
+src: url(../font/noto/NotoSansKR-Bold.woff2) format('woff2'),
+	 url(../font/noto/NotoSansKR-Bold.woff) format('woff'),
+	 url(../font/noto/NotoSansKR-Bold.otf) format('opentype');
+}
+
+@font-face {
+	font-family: 'Noto Sans KR';
+	font-weight: 900;
+	src: url(../font/noto/NotoSansKR-Black.woff2) format('woff2'),
+		 url(../font/noto/NotoSansKR-Black.woff) format('woff'),
+		 url(../font/noto/NotoSansKR-Black.otf) format('opentype');
+}
+
+
+/* Montserrat */
+
+@font-face {
+	font-family: 'Montserrat';
+	font-weight: 600;
+	src: url(../font/montserrat/MontserratAlternates-Bold.woff2) format('woff2'),
+		 url(../font/montserrat/MontserratAlternates-Bold.woff) format('woff'),
+		 url(../font/montserrat/MontserratAlternates-Bold.otf) format('opentype');
+}
+
+
+/* Poppins */
+
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;  
+	font-weight: 400;
+	font-style: normal;
+	src: url('../font/poppins/Poppins-Regular.eot');
+	src: url('../font/poppins/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../font/poppins/Poppins-Regular.woff2') format('woff2'),
+		 url('../font/poppins/Poppins-Regular.woff') format('woff'),
+}
+
+
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;  
+	font-weight: 500;
+	font-style: normal;
+	src: url('../font/poppins/Poppins-Medium.eot');
+	src: url('../font/poppins/Poppins-Medium.eot?#iefix') format('embedded-opentype'),
+		 url('../font/poppins/Poppins-Medium.woff2') format('woff2'),
+		 url('../font/poppins/Poppins-Medium.woff') format('woff'),
+		 url('../font/poppins/Poppins-Medium.ttf') format("truetype");
+}
+
+@font-face {
+	font-family: 'Poppins';
+	font-style: normal;  
+	font-weight: 600;
+	font-style: normal;
+	src: url('../font/poppins/Poppins-Bold.eot');
+	src: url('../font/poppins/Poppins-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('../font/poppins/Poppins-Bold.woff2') format('woff2'),
+		 url('../font/poppins/Poppins-Bold.woff') format('woff'),
+		 url('../font/poppins/Poppins-Bold.ttf') format("truetype");
+}

@@ -134,7 +134,7 @@
 .solution_txt:before{content:'';display:block;position:absolute;top:0;left:0;width:50%;height:0;background-size:cover !important;}
 .solution_txt p{position:relative; margin-bottom:20px;padding-left:53%;font-size:16px;}
 .solution_txt p:first-child{margin-bottom:40px;line-height:40px;color:#333;font-size:24px;font-weight:500;}
-.solution_txt p strong {display: block; font-size:38px; font-weight:bold; font-family: 'Poppins', sans-serif; padding-top:5px; display: block; color:#000;}
+.solution_txt p strong { font-size:38px; font-weight:600; font-family: 'Poppins', sans-serif; padding-top:5px; display: block; color:#000;}
 .solution_txt ul{position:relative; padding-left:53%;}
 .solution_txt ul li{position:relative;margin-bottom:20px;line-height:25px;padding-left:35px;font-size:16px;}
 .solution_txt ul li:after{content:'';background:url(../images/content/li_check.png);width:25px;height:25px;position:absolute;left:0;top:0;}
@@ -165,7 +165,7 @@
 .solution_merit li:last-child{border-right:0 !important;}
 .solution_merit li h3{font-size:22px;color:#333; font-weight:500;margin:20px 0 10px;} 
 .solution_merit li p{display:block;padding:5px 0;font-size:15px}
-.solution_merit li h3 b {font-weight:bold;color:#014099; font-family:"Montserrat";}
+.solution_merit li h3 b {font-weight:600;color:#014099; font-family:"Montserrat";}
 
 /*  SOLUTION ::주요기능2  */
 .solution_primary{border-top:1px solid #222;}
@@ -206,7 +206,7 @@ display: block; color: #FFF; font-weight: 500; }
 .pipe_merit li{float:left; width:50%; padding:20px; border:1px solid #e8e8e8; }
 .pipe_merit li h3{font-size:20px;color:#333; font-weight:500;margin:0;} 
 .pipe_merit li p{display:block; padding:5px 0 0 25px;font-size:15px}
-.pipe_merit li h3 b {font-weight:bold;color:#014099; font-family:"Montserrat";}
+.pipe_merit li h3 b {font-weight:600;color:#014099; font-family:"Montserrat";}
 .pipe_merit:after{content:'';display:block;clear:both;}   
 .pipe_model{overflow:hidden; margin:0;}
 .pipe_model li{float:left;width:70%; margin-right:2%;border:1px solid #e8e8e8;text-align:center;position:relative;padding:80px 20px 20px; min-height:740px}

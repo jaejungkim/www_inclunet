@@ -26,7 +26,7 @@
 .company_title > dt p b{font-weight:500;}
 .company_title > dd{width:35.33%;}
 .company_title > dd img{height:320px;}
-.company_title > dt p.company_txt{font-size:16px;line-height:28px;color:#777; font-weight:400;margin-top:15px;}
+.company_title > dt p.company_txt{font-size:16px;line-height:28px;color:#444; font-weight:400;margin-top:15px;}
 
 .business_box{overflow:hidden;padding-bottom:60px}
 .business_box li{float:left;width:32%;margin-right:2%;border:1px solid #e8e8e8;text-align:center;position:relative;padding:90px 40px 20px;min-height:360px;background:#fff;}
@@ -65,7 +65,7 @@
 /*  COMPANY ::연혁  */
 .history_area{position:relative;position:relative;}
 .history_area ul{width:100%;height:auto;position:relative;}
-.history_area .historytxt{margin-top:5px;font-size:16px;color:#666; }
+.history_area .historytxt{margin-top:5px;font-size:16px; }
 .history_area .historytxt b{padding-left:10px;font-size:16px;color:#1a1a1a;font-weight:500; font-family:'Poppins', sans-serif; font-weight:600; }
 .history_area li::after{content:"";display:block;width:1px;height:100%;position:absolute;right:0;top:15px;background-color:#c6cace;}
 .history_area li:nth-child(odd)::after{left:0;right:auto;}
@@ -84,9 +84,9 @@
 .history_longtxt2{padding-right:50px;}
 .history-br{display:block;}
 
-.history_area .hisRtxt{font-size:16px;color:#666; position:relative; padding:0 0 5px 50px;}
+.history_area .hisRtxt{font-size:16px; position:relative; padding:0 0 5px 50px;}
 .history_area .hisRtxt b{position:absolute;top:0px;left:0px; font-size:16px;color:#1a1a1a;font-weight:500; font-family:'Poppins', sans-serif; font-weight:600; }
-.history_area .hisLtxt{font-size:16px;color:#666; position:relative; padding:0 50px 5px 0; text-align:right; }
+.history_area .hisLtxt{font-size:16px; position:relative; padding:0 50px 5px 0; text-align:right; }
 .history_area .hisLtxt b{position:absolute;top:0;right:0; font-size:16px;color:#1a1a1a;font-weight:500; font-family:'Poppins', sans-serif; font-weight:600; }
 
 /*  COMPANY ::인재채용  */
@@ -116,7 +116,7 @@
 .recruit_inquiry_con > dt{width:65px;}
 .recruit_inquiry_con > dt strong{font-family:'Poppins', sans-serif; background-color:#fff;display:block;border:5px solid #005db5;font-size:13px;line-height:35px;color:#000;font-weight:600;text-align:center;border-radius:100%;-moz-border-radius:100%;-webkit-border-radius:100%;-o-border-radius:100%;padding:10px 0;}
 .recruit_inquiry_con > dd{padding:0 30px;}
-.recruit_inquiry_con > dd p{font-size:18px;line-height:36px;color:#333;font-family:'Noto Sans KR', "나눔고딕", NanumGothic, "Nanum Gothic","돋움", Dotum, Arial, sans-serif;}
+.recruit_inquiry_con > dd p{font-size:18px;line-height:36px;color:#333;font-family:'Noto Sans', sans-serif;}
 .recruit_inquiry_con > dd p a{color:#333;}
 .recruit_inquiry_con > dd p a:hover{text-decoration:underline; color:#01479d}
 
@@ -165,13 +165,13 @@
 .solution_merit li:last-child{border-right:0 !important;}
 .solution_merit li h3{font-size:22px;color:#333; font-weight:500;margin:20px 0 10px;} 
 .solution_merit li p{display:block;padding:5px 0;font-size:15px}
-.solution_merit li h3 b {font-weight:600;color:#014099; font-family:"Montserrat";}
+.solution_merit li h3 b {font-weight:700;color:#014099; font-family:'Montserrat', sans-serif;}
 
 /*  SOLUTION ::주요기능2  */
 .solution_primary{border-top:1px solid #222;}
 .solution_primary li{position:relative;padding:30px 40px 30px 100px;box-sizing:border-box;border:1px solid #dbdee1;border-top:none; font-size:15px;min-height:85px;}
 .solution_primary li i{position:absolute;top:20px;left:30px;}
-.solution_primary li i{display:inline-block;vertical-align:middle;width:40px;height:46px;line-height:46px;text-align:center;font-weight:600;margin:0 20px 0 0;font-style:normal;font-family:"Montserrat";font-size:16px;}
+.solution_primary li i{display:inline-block;vertical-align:middle;width:40px;height:46px;line-height:46px;text-align:center;font-weight:600;margin:0 20px 0 0;font-style:normal;font-family:'Montserrat', sans-serif;font-size:16px; font-weight:700;}
 .nbg{background:url(../images/content/n_bg.png) no-repeat;background-position:center;color:#fff;}
 .nbg1{background:url(../images/content/n_bg1.png) no-repeat;background-position:center;color:#fff;}
 .nbg2{background:url(../images/content/n_bg2.png) no-repeat;background-position:center;color:#fff;}
@@ -206,7 +206,7 @@ display: block; color: #FFF; font-weight: 500; }
 .pipe_merit li{float:left; width:50%; padding:20px; border:1px solid #e8e8e8; }
 .pipe_merit li h3{font-size:20px;color:#333; font-weight:500;margin:0;} 
 .pipe_merit li p{display:block; padding:5px 0 0 25px;font-size:15px}
-.pipe_merit li h3 b {font-weight:600;color:#014099; font-family:"Montserrat";}
+.pipe_merit li h3 b {font-weight:700;color:#014099; font-family:'Montserrat', sans-serif;}
 .pipe_merit:after{content:'';display:block;clear:both;}   
 .pipe_model{overflow:hidden; margin:0;}
 .pipe_model li{float:left;width:70%; margin-right:2%;border:1px solid #e8e8e8;text-align:center;position:relative;padding:80px 20px 20px; min-height:740px}
@@ -380,7 +380,7 @@ display: block; color: #FFF; font-weight: 500; }
 	.company_title > dt strong{display:none;}
 	.company_title > dt h3{font-size:20px;margin-bottom:10px;}
 	.company_title > dt p{font-size:18px;line-height:28px;}
-	.company_title > dt p.company_txt{font-size:15px;line-height:20px;color:#777;}
+	.company_title > dt p.company_txt{font-size:15px;line-height:20px;}
 	
 	.business_box{padding-bottom:30px;}
 	.business_box li strong{padding:10px;font-size:16px;}

@@ -4,16 +4,16 @@
 
 /* RESET */
 *{box-sizing:border-box;}
-html{font-family:'Noto Sans KR', 'Poppins', "나눔고딕", NanumGothic, "Nanum Gothic","돋움", Dotum, Arial, sans-serif;box-sizing:border-box;font-size:14px;color:#666;letter-spacing:-0.03em;}
+html{font-family:'Noto Sans', '돋움', Arial, sans-serif;box-sizing:border-box;font-size:14px;color:#444;letter-spacing:-0.03em;}
 html, body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, span, form, fieldset, input, select, label, textarea, caption, table, thead, tfoot, tbody, tr, th, td, figure{margin:0;padding:0;font-weight:normal;}
 address,em{font-stretch:normal;font-style:normal;}
-b, span, strong, input, select, button{font-weight:normal;font-size:inherit;font-family:"Noto Sans KR";color:inherit;line-height:inherit;}
+b, span, strong, input, select, button{font-weight:normal;font-size:inherit;color:inherit;line-height:inherit;}
 article, aside, dialog, footer, header, section, footer, nav, figure, hgroup, details, summary, figure, figcaption{display:block;}
 cite{display:inline}
 html, body{height:100%}
 html{-webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none}
 body{overflow-y:scroll;margin:0px;background-attachment:fixed;}
-a{color:#666;text-decoration:none;}
+a{color:#444;text-decoration:none;}
 a:hover{text-decoration:none;}
 a:active{text-decoration:none;}
 a:focus{text-decoration:none;}
@@ -78,8 +78,8 @@ legend, caption{visibility:hidden;width:0;height:0;font-size:0;line-height:0;}
 .openlink:hover,.openlink:focus{color:#2775c4;text-decoration:underline;}
 
 /* FONT FAMILY */
-.f_poppins{font-family:'Poppins', sans-serif;}
-.f_Monts{font-family:"Montserrat";}
+.f_Poppins{font-family:'Poppins', sans-serif;}
+.f_Monts{font-family:'Montserrat', sans-serif;}
 
 /* FONT COLOR */
 .cl_white{color:#fff !important;}

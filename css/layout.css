@@ -17,7 +17,6 @@ nav .menu_bg{position:absolute;display:none;left:0;top:100px;z-index:1;width:100
 nav .menu_bg.active{display:block;}
 nav ul.menu_group{position:relative;z-index:10;}
 nav ul.menu_group .menu_1dep > a{font-family:'Poppins', sans-serif; font-size:20px;font-weight:600;letter-spacing:-0.03em;display:block;position:relative;width:200px;height:100px;line-height:100px;text-align:center;color:#131313; transition:color 0.3s ease;-webkit-transition:color 0.3s ease;}
-nav ul.menu_group .menu_1dep > a:before{content:"";display:block;position:absolute;left:50%;bottom:0;width:0;height:3px;background-color:#01479d;transition:all 0.3s ease;-webkit-transition:all 0.3s ease;}
 nav ul.menu_group .menu_1dep > a:hover{color:#01479d;}
 nav ul.menu_group .menu_1dep > a:focus{color:#01479d;}
 nav ul.menu_group .menu_1dep > a:hover:before{left:0;width:100%;}
@@ -28,9 +27,8 @@ nav ul.menu_group .menu_1dep ul.menu_2dep{display:none;position:absolute;}
 nav ul.menu_group .menu_1dep ul.menu_2dep.on{display:block;}
 nav ul.menu_group .menu_1dep:last-child ul{border-right:solid 1px #e0e0e0;}
 nav ul.menu_group .menu_1dep:last-child ul>li{width:198px;}
-nav ul.menu_group ul:hover{background-color:#fff;border-top:solid 1px #01479d;}
-nav ul.menu_group ul:hover:before{content:"";display:block;position:absolute;left:0;top:-2px;width:100%;height:2px;background-color:#01479d;}
-nav ul.menu_group .menu_1dep > a:hover ul.menu_2dep{background-color:#fff;border-top:solid 1px #01479d;}
+nav ul.menu_group ul:hover{background-color:#fff;border-top:solid 1px #e0e0e0;}
+nav ul.menu_group .menu_1dep > a:hover ul.menu_2dep{background-color:#fff;border-top:solid 1px #e0e0e0;}
 nav ul.menu_group .menu_1dep:hover ul.menu_2dep.on{ background:#fff; }
 nav ul.menu_group .menu_1dep:hover a{color:#01479d;}
 nav ul.menu_group .menu_1dep ul.menu_2dep.on a{color:#000;}

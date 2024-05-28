@@ -58,6 +58,13 @@ nav ul.menu_group ul>li a.active{color:#fff;background-color:#01479d;}
 .sub_visual.bg3{background:url(../images/common/sub_b3.jpg) center; background-size:cover;}
 .sub_visual.bg4{background:url(../images/common/sub_b4.jpg) center; background-size:cover;}
 
+.sub_visual_bg{position:absolute;top:0;left:0;width:100%;height:100%;overflow:hidden}
+.sub_visual_img{height:100%;background-size:cover!important;animation:visualAnimation forwards linear 1s}
+.sub_visual_img.bg1{background:url(../images/common/sub_b1.jpg) center; background-size:cover;}
+.sub_visual_img.bg2{background:url(../images/common/sub_b2.jpg) center; background-size:cover;}
+.sub_visual_img.bg3{background:url(../images/common/sub_b3.jpg) center; background-size:cover;}
+.sub_visual_img.bg4{background:url(../images/common/sub_b4.jpg) center; background-size:cover;}
+
 /* SUB_MENU */
 .sub_menu .submenu{margin:0 auto;max-width:1400px;display:block;}
 .sub_menu:after{display:block;visibility:hidden;clear:both;content:"";}

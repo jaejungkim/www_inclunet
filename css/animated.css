@@ -62,3 +62,8 @@
   0% {opacity:1;transform: scale(1) rotate(-0.01deg);-webkit-transform: scale(1) rotate(-0.01deg);}
   100% {opacity:0;transform: scale(1.4) rotate(-0.01deg);-webkit-transform: scale(1.4) rotate(-0.01deg);}
 }
+
+@keyframes visualAnimation {
+	0% {transform:scale(1.1)}
+	100% {transform:scale(1)}
+}

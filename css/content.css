@@ -372,9 +372,8 @@ display: block; color: #FFF; font-weight: 500; }
 	/* 타이틀 */
 	/*.page_title{display:block;position:relative;padding:10px 0;font-size:30px;margin:60px 0 20px;}	
 	.page_title img{height:34px;}*/
-
 	
-	.page_title{font-size:35px;  margin:20px 0; }
+	.page_title{font-size:28px;  margin:20px 0 0; }
 	.titleH3{ font-size:24px; padding-bottom:10px; line-height:1.2em;}
 	.titleH4{font-size:24px;}
 	.titleH4 span{display:none;}

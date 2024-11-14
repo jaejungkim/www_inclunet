@@ -39,11 +39,9 @@
 	src: local(¡Ø), url("../font/NotoSans/NotoSansKR-Bold.eot#iefix") format("embedded-opentype"), url("../font/NotoSans/NotoSansKR-Bold.woff") format("woff"), url("../font/NotoSans/NotoSansKR-Bold.otf") format("opentype"); 
 }
 
-
 /* Poppins */
 @font-face {
 	font-family: 'Poppins';
-	font-style: normal;  
 	font-weight: 400;
 	font-style: normal;
 	src: url('../font/poppins/Poppins-Regular.eot');
@@ -54,7 +52,6 @@
 
 @font-face {
 	font-family: 'Poppins';
-	font-style: normal;  
 	font-weight: 500;
 	font-style: normal;
 	src: url('../font/poppins/Poppins-Medium.eot');
@@ -65,8 +62,7 @@
 }
 
 @font-face {
-	font-family: 'Poppins';
-	font-style: normal;  
+	font-family: 'Poppins';  
 	font-weight: 600;
 	font-style: normal;
 	src: url('../font/poppins/Poppins-SemiBold.eot');
@@ -78,7 +74,6 @@
 
 @font-face {
 	font-family: 'Poppins';
-	font-style: normal;  
 	font-weight: 700;
 	font-style: normal;
 	src: url('../font/poppins/Poppins-Bold.eot');
@@ -89,7 +84,6 @@
 }
 
 
-
 /* Montserrat */
 @font-face {
 	font-family: 'Montserrat';
@@ -97,4 +91,26 @@
 	src: url(../font/montserrat/MontserratAlternates-Bold.woff2) format('woff2'),
 		 url(../font/montserrat/MontserratAlternates-Bold.woff) format('woff'),
 		 url(../font/montserrat/MontserratAlternates-Bold.otf) format('opentype');
+}
+
+/* GmarketSans */
+@font-face {
+    font-family: 'GmarketSans';
+	font-weight: 300;
+	font-style: normal;
+    src: url('../font/GmarketSans/GmarketSansLight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'GmarketSans';
+	font-weight: 400;
+	font-style: normal;
+    src: url('../font/GmarketSans/GmarketSansMedium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'GmarketSans';
+	font-weight: 700;
+	font-style: normal;
+    src: url('../font/GmarketSans/GmarketSansBold.woff') format('woff');
 }

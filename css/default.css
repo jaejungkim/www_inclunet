@@ -4,7 +4,7 @@
 
 /* RESET */
 *{box-sizing:border-box;}
-html{font-family:'Noto Sans', '돋움', Arial, sans-serif;box-sizing:border-box;font-size:14px;color:#444;letter-spacing:-0.03em; }
+html{font-family: 'Noto Sans', '돋움', Arial, sans-serif;box-sizing:border-box;font-size:14px;color:#444;letter-spacing:-0.03em; }
 html, body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, span, form, fieldset, input, select, label, textarea, caption, table, thead, tfoot, tbody, tr, th, td, figure{margin:0;padding:0;font-weight:normal; }
 address,em{font-stretch:normal;font-style:normal;}
 b, span, strong, input, select, button{font-weight:normal;font-size:inherit;color:inherit;line-height:inherit;}

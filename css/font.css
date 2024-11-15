@@ -114,3 +114,28 @@
 	font-style: normal;
     src: url('../font/GmarketSans/GmarketSansBold.woff') format('woff');
 }
+
+
+/* ONE Mobile Title */
+
+@font-face {
+	font-family: 'OnemobileG';
+	font-weight: 400;
+	font-style: normal;
+	src:
+	url('../font/OneMobile/ONEMR.eot') format('eot'),
+	url('../font/OneMobile/ONEMR.eot?#iefix') format('embedded-opentype'),
+	url('../font/OneMobile/ONEMR.woff') format('woff'),
+	url('../font/OneMobile/ONEMR.woff2') format('woff2'),
+	url('../font/OneMobile/ONEMR.ttf') format('truetype');
+}
+
+
+@font-face {
+	font-family: 'OnemobileT';
+	font-weight: 700;
+	font-style: normal;
+	src:
+	url('../font/OneMobile/ONEMT.woff2') format('woff2'), 
+	url('../font/OneMobile/ONEMT.woff') format('woff');
+}

@@ -10,12 +10,12 @@
 .page_title img{height:45px;vertical-align:middle; margin-bottom:5px;}
 */
 
-.page_title{display:block; position:relative; padding:0; font-size:35px; font-weight:700; color:#222; text-align:center; margin:40px 0; letter-spacing:-1px; }
+.page_title{display:block; position:relative; padding:0; font-size:35px; font-weight:700; color:#222; text-align:center; margin:40px 0; letter-spacing:-1px; font-family: 'OnemobileT'; }
 
-.titleH3{position:relative;color:#000;font-weight:500; font-size:30px; padding-bottom:10px;  line-height:1.2em;}
-.titleH3 strong{color:#173d7d; font-weight:700;}
+.titleH3{position:relative;color:#000; font-weight:700; font-size:30px; padding-bottom:10px;  line-height:1.2em; font-family: 'OnemobileT';}
+.titleH3 strong{color:#173d7d;  }
 
-.titleH4{position:relative;color:#101010;font-weight:500; font-size:25px; padding-bottom:10px; }
+.titleH4{position:relative;color:#222;font-weight:700; font-size:24px; padding-bottom:10px; font-family: 'OnemobileT';}
 .titleH4 span{font-size:18px;color:#777;}
 
 
@@ -38,7 +38,7 @@
 .business_box li{float:left;width:32%;margin-right:2%;border:1px solid #e8e8e8;text-align:center;position:relative;padding:90px 40px 20px;min-height:360px;background:#fff;}
 .business_box li:last-child{margin-right:0;}
 .business_box li strong{padding:15px;color:#333;display:block;position:absolute;top:0;left:0;width:100%; font-size:15px;}
-.business_box li strong span{display:block;font-size:20px;font-family:'Poppins', sans-serif;font-weight:500;}
+.business_box li strong span{display:block;font-size:20px; font-family:'Poppins', sans-serif;font-weight:500;}
 .business_box li h3{font-size:18px;color:#333;font-weight:500;margin:20px 0;}
 .business_box li p{text-align:left;padding:5px 0 5px 15px;position:relative;}
 .business_box li p:after{content:'';width:4px;height:4px;border-radius:50%;position:absolute;left:0;top:14px;background:#005db5;} 
@@ -81,7 +81,7 @@
 .history_area li .Year::after{content:"";width:10px;height:10px;background-color:#fff;border:4px solid #005db5;border-radius:50%;position:absolute;left:-9px;top:6px; z-index:1;}
 .history_area li:nth-child(even)::before{right:0;left:auto;}
 .history_area li:nth-child(even) .Year::after{right:-9px;left:auto;}
-.history_area li .Year{font-size:40px;font-weight:600;font-family:'Poppins', sans-serif; line-height:30px;color:#000;margin-bottom:30px;letter-spacing:-1px;}
+.history_area li .Year{font-size:40px;font-weight:600;font-family:'OnemobileT', sans-serif; line-height:30px;color:#000;margin-bottom:30px;letter-spacing:-1px;}
 .history_area li:nth-child(even) .subTit6{text-align:right;}
 .history_area li .subTit6{text-align:left;font-weight:normal;}
 .history_longtxt{padding-left:50px;}

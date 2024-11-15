@@ -33,7 +33,7 @@ nav ul.menu_group .menu_1dep:hover ul.menu_2dep.on{ background:#fff; }
 nav ul.menu_group .menu_1dep:hover a{color:#01479d;}
 nav ul.menu_group .menu_1dep ul.menu_2dep.on a{color:#000;}
 nav ul.menu_group .menu_1dep ul.menu_2dep.on a:hover{color:#fff;}
-nav ul.menu_group ul>li{clear:both;width:199px;text-align:center;}
+nav ul.menu_group ul>li{clear:both;width:199px;text-align:center; font-family: 'Noto Sans';}
 nav ul.menu_group ul>li a{display:block;width:199px;height:35px;line-height:35px;font-size:13px;color:#666;}
 nav ul.menu_group ul>li a:hover,
 nav ul.menu_group ul>li a:focus,
@@ -164,7 +164,7 @@ background:#08347f url(../images/common/gotop.png) no-repeat center center; text
 	.R5_mnav li ul.msmn_box li{display:block;list-style-type:none;margin-top:-1px;padding:8px 0;}
 	.R5_mnav li ul.msmn_box li:last-child{padding:10px 0 15px;}
 	.R5_mnav li ul.msmn_box li:before{top:18px;left:18px;width:5px;height:2px;content:'';display:block;position:absolute;background:#fff;}    
-	.R5_mnav li ul.msmn_box li a{font-size:14px;display:block;background:#014e97;border-bottom:none;color:#fff;padding:0 10px 0 30px;  font-family:'Noto Sans KR', sans-serif;}
+	.R5_mnav li ul.msmn_box li a{font-size:14px;display:block;background:#014e97;border-bottom:none;color:#fff;padding:0 10px 0 30px;  }
 	.R5_mnav li ul.msmn_box li a:hover{color:#8ac6fe;text-decoration:underline;}
 	.R5_mnav li ul.msmn_box li ul{padding-top:0;}
 	.R5_mnav li ul.msmn_box li ul li{border-bottom:0;}

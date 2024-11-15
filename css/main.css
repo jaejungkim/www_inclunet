@@ -47,7 +47,7 @@
 .wrap_system .system_item:after{content:"";position:absolute;top:50%;left:0;display:block;width:1px;height:140px;margin-top:-68px;background:#ededed;}
 .wrap_system .system_item:first-child:after{display:none;}
 .wrap_system .system_box{margin:0;}
-.wrap_system .system_box .system_title{font-size:25px;font-weight:700;color:#1a1a1a;letter-spacing:-1px; font-family: 'OnemobileT';}
+.wrap_system .system_box .system_title{font-size:25px;font-weight:700;color:#1a1a1a;letter-spacing:-1px; }
 .wrap_system .system_box .system_title img{height:30px;vertical-align:middle;margin-bottom:8px;}
 .wrap_system .system_box .system_text{margin:20px 0;font-size:15px;line-height:1.7; }
 .wrap_system .system_box .system_more{position:relative;display:inline-block;color:#faa618;font-size:13px;height:50px;font-weight:500;}

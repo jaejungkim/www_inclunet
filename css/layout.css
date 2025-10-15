@@ -4,7 +4,7 @@
 .hidden-lg{display:none !important;}
 
 /* HEADER */
-.wrap_header{background-color:#fff;box-shadow:0 0 10px rgba(0,0,0,0.2);}
+.wrap_header{background-color:#fff;box-shadow:0 0 10px rgba(0,0,0,0.2); z-index:99; width:100%; position: fixed; top:0;}
 .wrap_header .nav_wrap{margin:0 auto;max-width:1400px;height:100px;border-bottom:solid 1px #e0e0e0;}
 .wrap_header .nav_wrap h1{position:absolute;top:35px;padding:0;}
 .wrap_header .nav_wrap h1 img{margin:0 0 0 50px;}
@@ -44,7 +44,7 @@ nav ul.menu_group ul>li a.active{color:#fff;background-color:#01479d;}
 .R5_mnav, .mnav_btn{display:none;font-size:0}
 
 /* WRAP CONTAINER */
-#wrap_container{margin:0 auto;}
+#wrap_container{margin:0 auto; margin-top:98px; }
 #wrap_container:after{content:'';display:block;clear:both;}   
 
 /* SUB VISUAL */
@@ -127,7 +127,7 @@ background:#08347f url(../images/common/gotop.png) no-repeat center center; text
 @media (max-width:780px) {
 	
 	/* WRAP CONTAINER */
-	#wrap_container{box-sizing:border-box;margin:0 auto;width:100%;}
+	#wrap_container{box-sizing:border-box;margin:0 auto;width:100%; margin-top:68px;}
 	#wrap_container.hold{position:fixed;}
 
 	/* HIDDEN */

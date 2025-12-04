@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const items = Array.from(tbody.children);		// tbody의 모든 자식 요소를 배열로 변환
 
     let currentIndex;		// 현재 표시된 마지막 항목의 인덱스
+    let previousWidth = window.innerWidth;  // 화면너비
 
     // 초기에는 테스크탑과 모바일에 따라 다르게 설정된 항목 수로 표시
     setItemsToShow();
@@ -40,7 +41,21 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 화면 크기 변경 시 항목 수 재설정
     window.addEventListener('resize', function() {
-        setItemsToShow();
+        
+        const currentWidth = window.innerWidth;
+        
+        // 모바일 <> 데스크탑 전환 시에만 실행
+        if (currentWidth !== previousWidth) {
+            
+            const wasMobile = previousWidth <= mobileWidth;
+            const isMobile = currentWidth <= mobileWidth;
+            
+            if (wasMobile !== isMobile) {
+                setItemsToShow();
+            }
+            
+            previousWidth = currentWidth;
+        }
     });
 
     // 특정 인덱스 이후의 항목 숨기기

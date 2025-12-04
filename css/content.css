@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 /* SUB CONTENTS */
-.content{margin:0 auto; word-break: keep-all;}
+.content{margin:0 auto; word-break: keep-all; }
 
 /* 타이틀 */
 /*
@@ -263,8 +263,15 @@ display: block; color: #FFF; font-weight: 500; }
 .morebtn_wrap {margin:40px auto 0; text-align:center;}
 .hidden {display: none;}
 .more_btn { margin:0 auto;  border:2px solid #4d515a;  padding:10px 50px; border-radius: 60px; color:#4d515a; background:##f4f6fb}
-.more_btn span {font-size: 16px;   font-weight: 500; }
+.more_btn span {font-size: 16px;font-weight: 500; }
 .more_btn:hover{color:#fff; background:#4d515a;}
+
+
+/* 사업실적 2025 */
+.pd_tbl li {position: relative; padding:20px 30px; border:1px solid #e8e8e8; margin-bottom:10px; border-radius: 10px; }
+.pd_tbl li .pd_work_order { display: inline-block; width:140px; font-size:15px; color:#888; border-right:1px solid #dbdee1; }
+.pd_tbl li .pd_work_name { display: inline-block; font-size:18px; color:#000; margin-left:50px;}
+.pd_tbl li .pd_work_day { position:absolute;top:24px; right:30px; display: inline-block; text-align:right; font-size:15px; color:#888;  font-weight:500; }
 
 
 /*  BUSINESS ::협력사  */
@@ -366,6 +373,21 @@ display: block; color: #FFF; font-weight: 500; }
 /** 1200px 끝 **/
 
 
+
+/** 1000px 시작 **/
+@media all and (max-width:1000px) {	
+
+	.pd_tbl li { padding:15px;}
+	.pd_tbl li .pd_work_order { display: inline-block; width:150px; font-size:14px; color:#888; border-right:none;}
+	.pd_tbl li .pd_work_name { display: block; font-size:16px; margin:5px 0 0 0; }
+	.pd_tbl li .pd_work_day { top:14px; right:15px; font-size:14px; font-weight:500; }
+
+}
+/** 1000px 끝 **/
+
+
+
+
 /** 780px 시작 **/
 @media all and (max-width:780px) {	
 	
@@ -385,7 +407,6 @@ display: block; color: #FFF; font-weight: 500; }
 
 		
 	/*  COMPANY ::회사소개  */
-
 	.company_title{display:block;}
 	.company_title > dt, .company_title > dd{display:block;width:auto;}
 	.company_title > dt{margin-bottom:15px;padding-right:0px;}
@@ -425,12 +446,10 @@ display: block; color: #FFF; font-weight: 500; }
 	.history_area .historytxt b{display:block !important;}
 	.history_area  li:nth-child(even) .historytxt{padding-left:0;padding-top:24px;}
 	.history_longtxt2{padding-right:0;}
-
 	.history_area .hisRtxt{padding:0 0 5px 40px; font-size:14px;}
 	.history_area .hisRtxt b{font-size:14px;color:#1a1a1a; }
 	.history_area .hisLtxt{padding:0 0 5px 40px; font-size:14px; text-align:left;}
 	.history_area .hisLtxt b{position:absolute;top:0;left:0; font-size:14px; }
-
 
 	/*  COMPANY ::인재채용  */
 	.recruit_title{padding-bottom:10px;}

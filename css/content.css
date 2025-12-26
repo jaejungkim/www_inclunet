@@ -20,7 +20,7 @@
 
 
 /*  PAGE :기본  */
-.page_area{margin:40px 0;}
+.page_area{margin:40px 0; }
 .page_area > div{max-width:1400px; margin:0 auto;}
 
 /*  COMPANY ::회사소개  */
@@ -328,6 +328,9 @@ display: block; color: #FFF; font-weight: 500; }
 .ic_fax{background-image:url(../images/content/ic_fax.png);}
 .ic_mail{background-image:url(../images/content/ic_mail.png);}
 
+.tel_link { pointer-events: none;   cursor: default; color: #000;  text-decoration: none; }
+
+
 /** 1400px 시작 **/
 @media all and (max-width:1400px) {	
 	
@@ -591,6 +594,8 @@ display: block; color: #FFF; font-weight: 500; }
 
 	.morebtn_wrap {margin:30px auto 20px; text-align:center;}
 
+	.tel_link {pointer-events: auto; cursor: pointer;}
+
 }
 /** 780px 끝 **/
 
@@ -613,6 +618,10 @@ display: block; color: #FFF; font-weight: 500; }
 	.pipe_box li:last-child{margin-right:0;}
 	
 	.list_dotGray>li::before{top:7px;}
+	
+	
+
+	
 
 }
 /** 480px 끝 **/

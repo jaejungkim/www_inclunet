@@ -44,7 +44,7 @@ nav ul.menu_group ul>li a.active{color:#fff;background-color:#01479d;}
 .R5_mnav, .mnav_btn{display:none;font-size:0}
 
 /* WRAP CONTAINER */
-#wrap_container{margin:0 auto; margin-top:98px; }
+#wrap_container{margin:0 auto; margin-top:98px; min-height: calc(100vh - 206px);}
 #wrap_container:after{content:'';display:block;clear:both;}   
 
 /* SUB VISUAL */
@@ -127,7 +127,7 @@ background:#08347f url(../images/common/gotop.png) no-repeat center center; text
 @media (max-width:780px) {
 	
 	/* WRAP CONTAINER */
-	#wrap_container{box-sizing:border-box;margin:0 auto;width:100%; margin-top:68px;}
+	#wrap_container{box-sizing:border-box;margin:0 auto;width:100%; margin-top:68px; min-height: calc(100vh - 174px);}
 	#wrap_container.hold{position:fixed;}
 
 	/* HIDDEN */

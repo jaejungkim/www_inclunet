@@ -10,7 +10,6 @@ address,em{font-stretch:normal;font-style:normal;}
 b, span, strong, input, select, button{font-weight:normal;font-size:inherit;color:inherit;line-height:inherit;}
 article, aside, dialog, footer, header, section, footer, nav, figure, hgroup, details, summary, figure, figcaption{display:block;}
 cite{display:inline}
-html, body{height:100%}
 html{-webkit-text-size-adjust:none;-moz-text-size-adjust:none;-ms-text-size-adjust:none}
 body{overflow-y:scroll;margin:0px;background-attachment:fixed;}
 a{color:#444;text-decoration:none;}

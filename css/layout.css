@@ -72,6 +72,7 @@ nav ul.menu_group ul>li a.active{color:#fff;background-color:#01479d;}
 .sub_menu .submenu li:last-child{border-right:0;}
 .sub_menu .submenu.col2 li{width:50%;}
 .sub_menu .submenu.col3 li{width:33.333%;}
+.sub_menu .submenu.col5 li{width:20%;}
 .sub_menu .submenu li a{display:block;text-align:center;color:#fff;font-size:18px;font-weight:400;padding:20px 0; line-height:1em; }
 .sub_menu .submenu li.on{background:#fff;color:#0b71ba;}
 .sub_menu .submenu li.on a{color:#000;}

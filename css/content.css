@@ -381,7 +381,7 @@ display: block; color: #FFF; font-weight: 500; }
 @media all and (max-width:1000px) {	
 
 	.pd_tbl li { padding:15px;}
-	.pd_tbl li .pd_work_order { display: inline-block; width:150px; font-size:14px; color:#888; border-right:none;}
+	.pd_tbl li .pd_work_order { display: inline-block; width:150px; font-size:14px; color:#888; border-right:none; text-align:left;}
 	.pd_tbl li .pd_work_name { display: block; font-size:16px; margin:5px 0 0 0; }
 	.pd_tbl li .pd_work_day { top:14px; right:15px; font-size:14px; font-weight:500; }
 

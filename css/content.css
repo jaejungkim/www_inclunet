@@ -268,8 +268,8 @@ display: block; color: #FFF; font-weight: 500; }
 
 
 /* 사업실적 2025 */
-.pd_tbl li {position: relative; padding:20px 30px; border:1px solid #e8e8e8; margin-bottom:10px; border-radius: 10px; }
-.pd_tbl li .pd_work_order { display: inline-block; width:140px; font-size:15px; color:#888; border-right:1px solid #dbdee1; }
+.pd_tbl li {position: relative; padding:20px 30px 20px 0; border:1px solid #e8e8e8; margin-bottom:10px; border-radius: 10px; }
+.pd_tbl li .pd_work_order { display: inline-block; width:140px; font-size:15px; color:#888; border-right:1px solid #dbdee1;  text-align:center; }
 .pd_tbl li .pd_work_name { display: inline-block; font-size:18px; color:#000; margin-left:50px;}
 .pd_tbl li .pd_work_day { position:absolute;top:24px; right:30px; display: inline-block; text-align:right; font-size:15px; color:#888;  font-weight:500; }
 

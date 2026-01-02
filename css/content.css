@@ -212,7 +212,7 @@
 .tera_02 li { width:33.33%;  border: 1px solid #dbdee1; border-radius: 10px; margin:0 10px; padding:0 0 15px; }
 .tera_02 li:first-child { margin-left: 0;}
 .tera_02 li:last-child { margin-right: 0;}
-.tera_02 li h3 {text-align:center; display: block; color: #fff; font-size: 18px; font-weight: 600; background:#f0f3f8; border-radius: 10px 10px 0 0; padding: 15px 0; margin-bottom:10px;}
+.tera_02 li h3 {text-align:center; display: block; color: #fff; font-size: 18px; font-weight: 600; background:#f0f3f8; border-radius: 10px 10px 0 0; padding: 12px 0; margin-bottom:10px;}
 .tera_02 li h3.c1 {background: #1aa1ce;}
 .tera_02 li h3.c2 {background: #2d66be;}
 .tera_02 li h3.c3 {background: #08347f;}
@@ -457,6 +457,8 @@ display: block; color: #FFF; font-weight: 500; }
 	.tera_02 li {width:98%; margin-bottom:10px;}
 	.tera_02 li:first-child { margin-left: 10px;}
 	.tera_02 li:last-child { margin-right: 10px;}
+	.tera_02 li h3 {padding: 10px 0;}
+
 	.tera_02 li p.imgtxt{margin-left:0;}
 	.tera_02 li i {display:none;}
 

@@ -451,8 +451,7 @@ display: block; color: #FFF; font-weight: 500; }
 	.tera_02 li i {display:none;}
 
 	.tera_03 {flex-wrap: wrap; margin: 5px 0 0}
-	.tera_03 li {width:98%; margin-bottom:10px;}
-
+	.tera_03 li {width:98%; margin-bottom:10px; font-size:14px;}
 	.tera_03 li:first-child { margin-left: 10px;}
 	.tera_03 li:last-child { margin-right: 10px;}
 	

@@ -451,10 +451,11 @@ display: block; color: #FFF; font-weight: 500; }
 	.tera_02 li i {display:none;}
 
 	.tera_03 {flex-wrap: wrap; margin: 5px 0 0}
-	.tera_03 li {width:98%; margin-bottom:10px; font-size:14px;}
+	.tera_03 li {width:98%; margin-bottom:10px; font-size:14px; padding:10px 5px;}
 	.tera_03 li:first-child { margin-left: 10px;}
 	.tera_03 li:last-child { margin-right: 10px;}
-	
+	.tera_03 li strong {font-size:18px; width:30px; height:30px; line-height:30px; margin-right:5px;}
+
 	.tera_04 {flex-wrap: wrap; }
 	.tera_04 li {width:98%; margin-bottom:10px;}
 	.tera_04 li:first-child { margin-left: 10px; width:98%;}

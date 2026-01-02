@@ -223,14 +223,14 @@
 
 .tera_03 { display:flex; flex-wrap:nowrap; justify-content:center; position:relative; margin: 5px 0 20px;}
 .tera_03.d2{margin: 0 0 40px} 
-.tera_03 li { width:33.33%;  border: 1px solid #dbdee1; border-radius: 10px;  margin:0 10px; padding: 15px 16px; text-align: center; font-size:17px; font-weight: 500;}
+.tera_03 li { width:33.33%;  border: 1px solid #dbdee1; border-radius: 10px;  margin:0 10px; padding: 15px 16px;  font-size:17px; font-weight: 500;}
 .tera_03 li:first-child { margin-left: 0;}
 .tera_03 li:last-child { margin-right: 0;}
-.tera_03 li strong {display:inline-block; border-radius:50%; font-size:20px; font-weight: 600; margin-right:15px;  width:36px; height:36px; background:#f0f3f8;   color:#0462b7; line-height:36px; font-family: 'Montserrat', sans-serif;}
+.tera_03 li strong {display:inline-block; border-radius:50%; font-size:20px; font-weight: 600; margin-right:10px; text-align: center; width:36px; height:36px; background:#f0f3f8;   color:#0462b7; line-height:36px; font-family: 'Montserrat', sans-serif;}
 
 .tera_04 { display:flex; flex-wrap:nowrap; justify-content:center; position:relative; margin: 5px 0 40px;}
 .tera_04 li {border: 1px solid #dbdee1; border-radius: 10px; margin:0 10px; padding: 20px 16px; }
-.tera_04 li:first-child { margin-left: 0; }
+.tera_04 li:first-child { margin-left: 0; width:28%;}
 .tera_04 li:last-child { margin-right: 0; width:50%;}
 .tera_04 li h3 {text-align:center; display: block; color: #0462b7; font-size: 18px; font-weight: 600; line-height: 1; background: #f0f3f8; border-radius: 10px; padding: 12px 0; margin-bottom:10px;}
 .tera_04 li p{position:relative; display:block; padding:5px 10px 0 ;font-size:15px}
@@ -238,12 +238,12 @@
 
 .tera_05 {position:relative ;margin: 5px 0 40px} 
 .tera_05:after{content:'';display:block;clear:both;}   
-.tera_05 li {border-radius: 10px; border: 1px solid #dbdee1; line-height:50px; margin-bottom:20px;}
-.tera_05 li.tit {position:relative; float:left; border: 1px solid #f0f3f8; width:280px; text-align:center; font-size:18px; color: #0462b7; font-weight:600; background: #f0f3f8;}
-.tera_05 li.txt {position:relative; float:right; width:calc(100% - 300px); padding:0 20px;}
+.tera_05 li {border-radius: 10px; border: 1px solid #dbdee1; min-height:50px; margin-bottom:20px;}
+.tera_05 li.tit {position:relative; float:left; border: 1px solid #f0f3f8; width:280px; padding:10px 0; text-align:center; font-size:18px; color: #0462b7; font-weight:600; background: #f0f3f8;}
+.tera_05 li.txt {position:relative; float:right; width:calc(100% - 300px); padding:10px 20px;}
 .tera_05 li.txt::before{content:'';display:block; position:absolute;width:20px; left:-20px; top:24px; height:1px; background:#dbdee1;} 
-.tera_05 li.txt p{position:relative; display:inline-block; padding:0 0 0 10px;font-size:15px; border-radius: 10px;}
-.tera_05 li.txt p:after{content:'';width:4px;height:4px;border-radius:50%;position:absolute;left:0;top:24px;background:#005db5;} 
+.tera_05 li.txt p{position:relative; display:inline-block; padding:0 0 0 10px;font-size:15px; margin:0;}
+.tera_05 li.txt p:after{content:'';width:4px;height:4px;border-radius:50%;position:absolute;left:0;top:10px;background:#005db5; } 
 .tera_05 li.txt p.t1 {margin-left:100px;}
 
 
@@ -458,15 +458,14 @@ display: block; color: #FFF; font-weight: 500; }
 	
 	.tera_04 {flex-wrap: wrap; }
 	.tera_04 li {width:98%; margin-bottom:10px;}
-	.tera_04 li:first-child { margin-left: 10px;}
+	.tera_04 li:first-child { margin-left: 10px; width:98%;}
 	.tera_04 li:last-child { margin-right: 10px; width:98%;}
 
-	.tera_05 li {border-radius: 10px; border: 1px solid #dbdee1; line-height:40px; margin-bottom:10px;}
+	.tera_05 li {border-radius: 10px; border: 1px solid #dbdee1; margin-bottom:10px;}
 	.tera_05 li.tit {width:97%; margin:0 1.5% 10px;}
 	.tera_05 li.txt {width:97%; margin:0 1.5% 10px;}
 	.tera_05 li.txt::before{display:none;} 
-	.tera_05 li.txt p{ display:block; padding:0 0 0 10px;font-size:15px;}
-	.tera_05 li.txt p:after{top:18px;} 
+	.tera_05 li.txt p{ display:block;}
 	.tera_05 li.txt p.t1 {margin-left:0;}
 
 }

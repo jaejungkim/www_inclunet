@@ -18,6 +18,10 @@
 .titleH4{position:relative;color:#222;font-weight:700; font-size:24px; padding-bottom:10px; font-family: 'OnemobileT';}
 .titleH4 span{font-size:18px;color:#777;}
 
+.titleH5{position:relative;color:#222;font-weight:700; font-family: 'OnemobileT'; margin-bottom:10px;}
+.titleH5 img {vertical-align:bottom;}
+.titleH5 span{font-size:18px;color:#777; line-height:30px; line-height:28px;}
+
 /*  PAGE :기본  */
 .page_area{margin:40px 0; }
 .page_area > div{max-width:1400px; margin:0 auto;}
@@ -277,7 +281,6 @@ display: block; color: #FFF; font-weight: 500; }
 .pipe_model li .tit1_1{padding:10px;display:block;position:absolute;top:30px;left:40px;width:240px; font-size:18px;font-weight:500; background:#1aa1ce;color:#fff;  border-radius:50px;}
 .pipe_model li .tit1_2{padding:10px;display:block;position:absolute;top:30px;left:50%;width:240px; font-size:18px;font-weight:500; background:#0044a0;color:#fff; border-radius:50px;}
 .pipe_model li .pipeimg { text-align:center; display:block;width:100%;max-width:1000px;height:auto;margin:0 auto;}
-
 .pipe_model:after{content:'';display:block;clear:both;}   
 .pipe_model li .left_txt { float:left; width:48%; background:#f9f9f9; padding:10px 20px; border:1px solid #e8e8e8; text-align:left; min-height:100px;}
 .pipe_model li .right_txt { float:right; width:48%;  background:#f9f9f9; padding:10px 20px; border:1px solid #e8e8e8; text-align:left; min-height:100px;}
@@ -381,6 +384,8 @@ display: block; color: #FFF; font-weight: 500; }
 .ic_mail{background-image:url(../images/content/ic_mail.png);}
 
 .tel_link { pointer-events: none;   cursor: default; color: #000;  text-decoration: none; }
+.img_cadview{display:block;width:100%;max-width:1000px;height:auto;margin:0 auto;}
+.img_searchin{display:block;width:100%;max-width:800px;height:auto;margin:0 auto;}
 
 
 /** 1400px 시작 **/

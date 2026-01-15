@@ -140,16 +140,25 @@
 
 .solution_txt{position:relative;font-size:16px;box-sizing:border-box;}
 .solution_txt:before{content:'';display:block;position:absolute;top:0;left:0;width:50%;height:0;background-size:cover !important;}
-
 .solution_txt p {position:relative; padding-left:53%; }
 .solution_txt p.txt1 {color:#777; font-size:17px; font-weight:500;}
 .solution_txt p.txt2 {font-size:38px; font-weight:600; font-family: 'Poppins', sans-serif;  color:#000;}
 .solution_txt p.txt3 {font-size:17px; padding-top:5px; }
 .solution_txt p.txt4 {font-size:15px; padding-top:10px;}
-
 .solution_txt ul{position:relative; padding-left:53%; margin-top:20px;}
 .solution_txt ul li{position:relative;margin-bottom:20px;line-height:25px;padding-left:35px;font-size:16px;}
 .solution_txt ul li:after{content:'';background:url(../images/content/li_check.png);width:25px;height:25px;position:absolute;left:0;top:0;}
+
+
+.solution_txt p.serchin {position:relative; padding-left:50%; }
+.solution_txt p.txt5 {color:#777; font-size:17px; font-weight:500; padding-top:15px;}
+
+.solution_txt ul.serchin{position:relative; padding-left:50%; margin-top:20px;}
+.solution_txt ul.serchin li{position:relative;margin-bottom:20px;line-height:25px;padding-left:0;font-size:16px; vertical-align: middle;}
+.solution_txt ul.serchin li:after{display: none;}
+.solution_txt ul.serchin img {height:30px; vertical-align: bottom;}
+
+
 .img_solution {display: none;}
 
 .leaflet {position:relative;  padding:5px 0 20px;}

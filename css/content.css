@@ -127,6 +127,9 @@
 .recruit_inquiry_con > dd p a{color:#333;}
 .recruit_inquiry_con > dd p a:hover{text-decoration:underline; color:#01479d}
 
+.recruit_txt {position:relative;font-size:16px; padding-left:10px; line-height:24px;}
+.recruit_txt:after{content:'';width:5px;height:1px; position:absolute;left:0;top:13px;background:#777;} 
+
 /*  SOLUTION ::상단내용  */
 .solution_area{margin:35px 0 20px;}
 .solution_top{overflow:hidden;min-height:400px;padding:50px 0 30px;}
@@ -320,10 +323,11 @@ display: block; color: #FFF; font-weight: 500; }
 .bd_tbl > * > tr > *{padding:10px;font-size:15px;}
 
 /* 게시판 간격 */
-.bd_num,.bd_hit,.bd_recruit2,.bd_recruit4{width:8%;}
+.bd_num,.bd_hit,.bd_recruit2,.bd_recruit5{width:8%;}
 .bd_work_day{width:18%;}
 .bd_work_order{width:15%;}
 .bd_recruit1{width:15%;}
+.bd_recruit3 {vertical-align: top;}
 
 .morebtn_wrap {margin:40px auto 0; text-align:center;}
 .hidden {display: none;}
@@ -664,7 +668,7 @@ display: block; color: #FFF; font-weight: 500; }
 	/* 모바일 게시판 타이틀 정의 */	
 	.bd_tbl.bd_tbl_ul td{padding-left:100px;}
 	.bd_tbl.bd_tbl_ul [class*='bd_']:before{left:6px !important;width:80px !important;font-size:13px;border-radius:3px;background:#f0eeee;}
-	.bd_num,.bd_title,.bd_date,.bd_hit,.bd_writer,.bd_work_name,.bd_work_field,.bd_work_day,.bd_work_order,.bd_recruit1,.bd_recruit2,.bd_recruit3,.bd_recruit4{width:100%;}
+	.bd_num,.bd_title,.bd_date,.bd_hit,.bd_writer,.bd_work_name,.bd_work_field,.bd_work_day,.bd_work_order,.bd_recruit1,.bd_recruit2,.bd_recruit3,.bd_recruit4,.bd_recruit5{width:100%;}
 	.bd_tbl.bd_tbl_ul .bd_num:before{content:'번호'}
 	.bd_tbl.bd_tbl_ul .bd_title:before{content:'제목'}
 	.bd_tbl.bd_tbl_ul .bd_date:before{content:'등록일'}
@@ -676,8 +680,9 @@ display: block; color: #FFF; font-weight: 500; }
 	.bd_tbl.bd_tbl_ul .bd_work_order:before{content:'발주처'}
 	.bd_tbl.bd_tbl_ul .bd_recruit1:before{content:'모집부문'}
 	.bd_tbl.bd_tbl_ul .bd_recruit2:before{content:'구분'}
-	.bd_tbl.bd_tbl_ul .bd_recruit3:before{content:'자격요건'}
-	.bd_tbl.bd_tbl_ul .bd_recruit4:before{content:'모집인원'}
+	.bd_tbl.bd_tbl_ul .bd_recruit3:before{content:'필수자격요건'}
+	.bd_tbl.bd_tbl_ul .bd_recruit4:before{content:'우대자격요건'}
+	.bd_tbl.bd_tbl_ul .bd_recruit5:before{content:'모집인원'}
 	.bd_recruit4{border-bottom:none;}
 
 	/*  BUSINESS ::협력사  */

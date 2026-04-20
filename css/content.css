@@ -167,6 +167,10 @@
 .leaflet_Down { display: inline-block; border: 1px solid #0462b7; height: 40px; padding: 0 55px 0 15px; color: #0462b7; font-weight: 500; line-height: 38px; text-align: left; background:#fff url('../images/content/filedown_b.png') no-repeat right; font-size: 16px; }
 .leaflet_View { display: inline-block; border: 1px solid #dd0011; height: 40px; padding: 0 55px 0 15px; color: #dd0011; font-weight: 500; line-height: 38px; text-align: left; background:#fff url('../images/content/filedown_r.png') no-repeat right; font-size: 16px; }
 
+.btn_Buy { display: inline-block; border: 1px solid #08347f; height: 40px; padding: 0 50px 0 20px; color: #fff; font-weight: 500; line-height: 38px; text-align: left; background:#08347f url('../images/content/btnBuy.png') no-repeat right; font-size: 16px; margin:0 0 0 5px; }
+
+
+
 /*  SOLUTION ::주요기능1  */
 .solution_skill{border-top:2px solid #222;}
 .solution_skill>li{float:left; width:50%; position:relative;padding:30px 30px 30px 165px;box-sizing:border-box;min-height:200px;}
@@ -751,4 +755,3 @@ display: block; color: #FFF; font-weight: 500; }
 	
 }
 /** 380px 끝 **/
-

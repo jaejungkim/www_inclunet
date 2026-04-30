@@ -47,7 +47,7 @@
 	src: url('../font/poppins/Poppins-Regular.eot');
 	src: url('../font/poppins/Poppins-Regular.eot?#iefix') format('embedded-opentype'),
 		 url('../font/poppins/Poppins-Regular.woff2') format('woff2'),
-		 url('../font/poppins/Poppins-Regular.woff') format('woff'),
+		 url('../font/poppins/Poppins-Regular.woff') format('woff');
 }
 
 @font-face {

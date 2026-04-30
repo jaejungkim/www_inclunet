@@ -335,7 +335,7 @@ display: block; color: #FFF; font-weight: 500; }
 
 .morebtn_wrap {margin:40px auto 0; text-align:center;}
 .hidden {display: none;}
-.more_btn { margin:0 auto;  border:2px solid #4d515a;  padding:10px 50px; border-radius: 60px; color:#4d515a; background:##f4f6fb}
+.more_btn { margin:0 auto;  border:2px solid #4d515a;  padding:10px 50px; border-radius: 60px; color:#4d515a; background:#f4f6fb;}
 .more_btn span {font-size: 16px;font-weight: 500; }
 .more_btn:hover{color:#fff; background:#4d515a;}
 
